@@ -2,6 +2,7 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @use '@angular/material' as mat;
+@use 'palette' as custom-palette;
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -12,15 +13,15 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$portfolio-primary: mat.define-palette(mat.$indigo-palette);
-$portfolio-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$portfolio-primary: mat.define-palette(custom-palette.$purple-palette);
+$portfolio-accent: mat.define-palette(custom-palette.$blue-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $portfolio-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$portfolio-theme: mat.define-light-theme((
+$portfolio-theme: mat.define-dark-theme((
   color: (
     primary: $portfolio-primary,
     accent: $portfolio-accent,
@@ -60,7 +61,7 @@ $portfolio-theme: mat.define-light-theme((
 :root {
   --background-color: #000027;
   --on-background-text-color: white;
-  --on-background-accent-text-color: #5a59e5;
+  --on-background-accent-text-color: #599fe5; //#5a59e5
 }
 
 body {
