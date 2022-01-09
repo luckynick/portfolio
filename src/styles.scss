@@ -14,7 +14,7 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $portfolio-primary: mat.define-palette(custom-palette.$purple-palette);
-$portfolio-accent: mat.define-palette(custom-palette.$blue-palette, A200, A100, A400);
+$portfolio-accent: mat.define-palette(custom-palette.$blue-palette, 500, 300, 800);
 
 // The warn palette is optional (defaults to red).
 $portfolio-warn: mat.define-palette(mat.$red-palette);
@@ -111,6 +111,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .h-fh {
   height: calc(100vh - var(--top-banner-top-margin));
 }
+
+// .h2-width {
+//   @include calc(rfs($h2-font-size, width) + 1rem);
+// }
 
 @media (min-width: 768px) {
   

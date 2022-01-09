@@ -28,8 +28,8 @@
     <br>
     <div id="moveDownScrollHere"></div>
     <!-- h-md-fh -->
-    <div class="offer-banner content-banner container">
-        <!-- TODO: what can be achieved  -->
+    <div class="offer-banner content-banner container mb-5">
+        <!-- What can be achieved  -->
         <!-- New system. lightbulb auto_awesome 
             - automation can save human hours and improve speed of processes in your company. savings euro_symbol payments
             - more reliability of the processes because human factor is reduced. 
@@ -97,14 +97,14 @@
                 </div>
             </div>
         </div>
-        <!-- TODO: roadmap of a solution. Icons: double_arrow arrow_forward_ios arrow_forward -->
+        <!-- Roadmap of a solution. Icons: double_arrow arrow_forward_ios arrow_forward -->
         <!-- First contact: pan_tool people waving_hand front_hand alternate_email -->
         <!-- Understanding requirements: tips_and_updates assignment -->
         <!-- Agreement: handshake -->
         <!-- Implementation: settings(spinning) auto_fix_high settings_suggest -->
         <!-- Done: thumb_up thumb_up_off_alt verified task_alt rocket_launch -->
         <div class="title-block mb-4 text-center">
-            <span class="h2 d-inline">{{'... and how we can proceed' | trans}}</span> 
+            <span class="h5 d-inline">{{'... and how we can proceed' | trans}}</span> 
         </div>
         <div class="offer-items offer-items-flex roadmap-items 
                     flex-md-row flex-column">
@@ -113,7 +113,9 @@
                     <mat-icon inline="true" class="">waving_hand</mat-icon>
                 </div>
                 <div>
-                    {{'First contact' | trans}}
+                    <a mat-stroked-button (click)="openBottomSheet()">
+                        {{'First contact' | trans}}
+                    </a>
                 </div>
             </div>
             <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
@@ -154,10 +156,17 @@
             </div>
         </div>
     </div>
+    <!-- TODO: About me, including my experience and how it will convert to the advantages for the client
+        - technology generalism 
+        - specialization in Web gives a lot of possibilities
+        - responsibility and satisfactory result for all stakeholders
+        - presentation of my past projects
+        - Supporting local businesses in Czestochowa. Readiness to work on international projects, experience with projects from EU, US, Asia and Africa. 
+    -->
     <div class="about-banner content-banner container">
         <div class="title-block mb-4 text-center">
             <span class="h2 d-inline">{{'About' | trans}} </span>
-            <img width="40" alt="Mykyta Moiseienko Logo" src="/assets/logo.png" />
+            <img alt="Mykyta Moiseienko Logo" src="/assets/logo.png" />
         </div>
         <div class="row">
             <div class="col-12 col-md-7">

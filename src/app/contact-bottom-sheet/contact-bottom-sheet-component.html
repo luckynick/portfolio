@@ -1,0 +1,21 @@
+
+<mat-nav-list> 
+    <a mat-list-item href="mailto: mykyta.moiseienko@gmail.com" (click)="openLink($event)">
+        <mat-icon mat-list-icon>alternate_email</mat-icon>
+        <span mat-line>{{'E-mail' | trans}}</span>
+        <span mat-line>mykyta.moiseienko@gmail.com</span>
+    </a>
+
+    <a mat-list-item href="tel: +48 792 290 749" (click)="openLink($event)">
+        <mat-icon mat-list-icon>call</mat-icon>
+        <span mat-line>{{'Phone number' | trans}}</span>
+        <span mat-line>+48 792 290 749</span>
+    </a>
+
+    <a mat-list-item href="https://www.linkedin.com/in/mykyta-moiseienko/" 
+        target="_blank" (click)="openLink($event)">
+        <fa-icon mat-list-icon [icon]="faLinkedinIn"></fa-icon>
+        <span mat-line>{{'LinkedIn' | trans}}</span>
+        <span mat-line>Mykyta Moiseienko</span>
+    </a>
+</mat-nav-list>

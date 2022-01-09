@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import values from '../values';
+import { ContactBottomSheetComponent } from './contact-bottom-sheet/contact-bottom-sheet-component';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +11,12 @@ import values from '../values';
 export class AppComponent {
   title = 'portfolio';
   headerHeightPx = values.HEADER_HEIGHT_PX;
+
+  constructor(private _bottomSheet: MatBottomSheet) {
+    
+  }
+
+  openBottomSheet(): void {
+    this._bottomSheet.open(ContactBottomSheetComponent);
+  }
 }
