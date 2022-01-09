@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+import values from '../../values';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  shouldAnimateMoveDownBtn = true;
+
+  constructor(private viewportScroller: ViewportScroller) {
+    this.viewportScroller.setOffset([0, values.HEADER_CONTENT_OFFSET_PX]);
+  }
 
   ngOnInit(): void {
+  }
+
+  onMoveDownClick(event: any) {
+    this.shouldAnimateMoveDownBtn = false;
+
+    this.viewportScroller.scrollToAnchor('moveDownScrollHere');
   }
 
 }
