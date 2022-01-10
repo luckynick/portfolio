@@ -28,7 +28,7 @@
     <br>
     <div id="moveDownScrollHere"></div>
     <!-- h-md-fh -->
-    <div class="offer-banner content-banner container mb-5">
+    <div class="offer-banner content-banner container h-md-fh mb-5 mb-md-0">
         <!-- What can be achieved  -->
         <!-- New system. lightbulb auto_awesome 
             - automation can save human hours and improve speed of processes in your company. savings euro_symbol payments
@@ -37,63 +37,65 @@
         -->
         <!-- Integration with existing IT systems. integration_instructions insights -->
         <!-- Replace more expensive or inconvenient systems. thumb_up -->
-        <div class="title-block mb-4 text-center">
-            <!-- Offer; How we can solve your needs -->
-            <span class="h2 d-inline">{{'My Offer...' | trans}}</span> 
-        </div>
-        <div class="offer-items offer-items-grid mb-4">
-            <div class="offer-item major-left-item card">
-                <div class="major-item-side w-40">
+        <div>
+            <div class="title-block mb-4 text-center">
+                <!-- Offer; How we can solve your needs -->
+                <span class="h2 d-inline">{{'My Offer...' | trans}}</span> 
+            </div>
+            <div class="offer-items offer-items-grid mb-4">
+                <div class="offer-item major-left-item card">
+                    <div class="major-item-side w-40">
+                        <div class="holo">
+                            <mat-icon inline="true" class="">lightbulb</mat-icon>
+                        </div>
+                        <div>
+                            {{'Creating a new system' | trans}}
+                        </div>
+                    </div>
+                    <div class="major-item-side major-item-side-subitems w-60">
+                        <div class="offer-subitem">
+                            <div class="holo d-none">
+                                <mat-icon inline="true" class="">savings</mat-icon>
+                            </div>
+                            <div class="text-start">
+                                {{'Automation saves human hours and improves speed of processes in your company' | trans}}
+                            </div>
+                        </div>
+                        <div class="offer-subitem">
+                            <div class="text-start">
+                                {{'More reliable processes because human factor is reduced' | trans}}
+                            </div>
+                        </div>
+                        <div class="offer-subitem">
+                            <div class="text-start">
+                                {{'Easy to use solution, accessible from all devices' | trans}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offer-item card">
                     <div class="holo">
-                        <mat-icon inline="true" class="">lightbulb</mat-icon>
-                    </div>
+                        <mat-icon inline="true" class="">thumb_up</mat-icon>
+                    </div>  
                     <div>
-                        {{'Creating a new system' | trans}}
+                        {{'Replacing an expensive or inconvenient systems' | trans}}
                     </div>
                 </div>
-                <div class="major-item-side major-item-side-subitems w-60">
-                    <div class="offer-subitem">
-                        <div class="holo d-none">
-                            <mat-icon inline="true" class="">savings</mat-icon>
-                        </div>
-                        <div class="text-start">
-                            {{'Automation saves human hours and improves speed of processes in your company' | trans}}
-                        </div>
-                    </div>
-                    <div class="offer-subitem">
-                        <div class="text-start">
-                            {{'More reliable processes because human factor is reduced' | trans}}
-                        </div>
-                    </div>
-                    <div class="offer-subitem">
-                        <div class="text-start">
-                            {{'Easy to use solution, accessible from all devices' | trans}}
-                        </div>
+                <div class="offer-item card">
+                    <div class="holo">
+                        <mat-icon inline="true" class="">insights</mat-icon>
+                    </div>  
+                    <div>
+                        {{'Integrating with existing IT systems' | trans}}
                     </div>
                 </div>
-            </div>
-            <div class="offer-item card">
-                <div class="holo">
-                    <mat-icon inline="true" class="">thumb_up</mat-icon>
-                </div>  
-                <div>
-                    {{'Replacing an expensive or inconvenient systems' | trans}}
-                </div>
-            </div>
-            <div class="offer-item card">
-                <div class="holo">
-                    <mat-icon inline="true" class="">insights</mat-icon>
-                </div>  
-                <div>
-                    {{'Integrating with existing IT systems' | trans}}
-                </div>
-            </div>
-            <div class="offer-item card">
-                <div class="holo">
-                    <mat-icon inline="true" class="">more_horiz</mat-icon>
-                </div>  
-                <div>
-                    {{'And more' | trans}}
+                <div class="offer-item card">
+                    <div class="holo">
+                        <mat-icon inline="true" class="">more_horiz</mat-icon>
+                    </div>  
+                    <div>
+                        {{'And more' | trans}}
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,55 +105,58 @@
         <!-- Agreement: handshake -->
         <!-- Implementation: settings(spinning) auto_fix_high settings_suggest -->
         <!-- Done: thumb_up thumb_up_off_alt verified task_alt rocket_launch -->
-        <div class="title-block mb-4 text-center">
-            <span class="h5 d-inline">{{'... and how we can proceed' | trans}}</span> 
-        </div>
-        <div class="offer-items offer-items-flex roadmap-items 
-                    flex-md-row flex-column">
-            <div class="offer-item">
-                <div class="holo">
-                    <mat-icon inline="true" class="">waving_hand</mat-icon>
-                </div>
-                <div>
-                    <a mat-stroked-button (click)="openBottomSheet()">
-                        {{'First contact' | trans}}
-                    </a>
-                </div>
+        <div class="d-flex align-items-center flex-basis-100 flex-column justify-content-center">
+            <div class="title-block mb-4 d-flex 
+                align-items-center justify-content-center">
+                <span class="h5 d-inline">{{'... and how we can proceed' | trans}}</span> 
             </div>
-            <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-            <div class="offer-item">
-                <div class="holo">
-                    <mat-icon inline="true" class="">assignment</mat-icon>
-                </div>  
-                <div>
-                    {{'Understanding your needs' | trans}}
+            <div class="offer-items offer-items-flex roadmap-items 
+                        flex-md-row flex-column">
+                <div class="offer-item">
+                    <div class="holo">
+                        <mat-icon inline="true" class="">waving_hand</mat-icon>
+                    </div>
+                    <div>
+                        <a mat-stroked-button (click)="openBottomSheet()">
+                            {{'First contact' | trans}}
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-            <div class="offer-item">
-                <div class="holo">
-                    <mat-icon inline="true" class="">handshake</mat-icon>
-                </div>  
-                <div>
-                    {{'Agreement' | trans}}
+                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
+                <div class="offer-item">
+                    <div class="holo">
+                        <mat-icon inline="true" class="">assignment</mat-icon>
+                    </div>  
+                    <div>
+                        {{'Understanding your needs' | trans}}
+                    </div>
                 </div>
-            </div>
-            <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-            <div class="offer-item">
-                <div class="holo">
-                    <mat-icon inline="true" class="rotation-animation">settings</mat-icon>
-                </div>  
-                <div>
-                    {{'Implementation' | trans}}
+                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
+                <div class="offer-item">
+                    <div class="holo">
+                        <mat-icon inline="true" class="">handshake</mat-icon>
+                    </div>  
+                    <div>
+                        {{'Agreement' | trans}}
+                    </div>
                 </div>
-            </div>
-            <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-            <div class="offer-item">
-                <div class="holo">
-                    <mat-icon inline="true" class="">thumb_up</mat-icon>
-                </div>  
-                <div>
-                    {{'Done' | trans}}
+                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
+                <div class="offer-item">
+                    <div class="holo">
+                        <mat-icon inline="true" class="rotation-animation">settings</mat-icon>
+                    </div>  
+                    <div>
+                        {{'Implementation' | trans}}
+                    </div>
+                </div>
+                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
+                <div class="offer-item">
+                    <div class="holo">
+                        <mat-icon inline="true" class="">thumb_up</mat-icon>
+                    </div>  
+                    <div>
+                        {{'Done' | trans}}
+                    </div>
                 </div>
             </div>
         </div>

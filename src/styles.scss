@@ -104,10 +104,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   color: var(--on-background-accent-text-color);
 }
 
+.flex-basis-100 {
+  flex-basis: 100% !important;
+}
+
 .h-100vh {
   height: 100vh !important;
 }
-
 .h-fh {
   height: calc(100vh - var(--top-banner-top-margin));
 }
