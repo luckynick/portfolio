@@ -19,6 +19,12 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "pl": "src/locale/messages.pl.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -40,6 +46,7 @@
           },
           "configurations": {
             "production": {
+              "localize":true,
               "budgets": [
                 {
                   "type": "initial",
