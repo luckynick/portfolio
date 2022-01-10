@@ -65,15 +65,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all",
-              "assets": [
-                "src/assets",
-                {
-                  "input": "config_files/production/",
-                  "output": "./",
-                  "glob": "**"
-                }
-              ]
+              "outputHashing": "all"
             },
             "development": {
               "buildOptimizer": false,
