@@ -4,17 +4,18 @@
         <div class="focus-text-column holo" style="--gradient-shape: ellipse;">
             <div>
                 <div class="major-text display-6 mb-4 fw-normal">
-                    {{'IT solutions ' | trans}}<span class="text-accent">{{'for your Business' | trans}}</span>.<br />
-                    {{'Done professionally.' | trans}}
+                    <span i18n>IT solutions </span>
+                    <span i18n class="text-accent">for your Business</span>.<br />
+                    <span i18n>Done professionally.</span>
                 </div>
-                <div class="minor-text fw-light">
-                    {{'Mykyta Moiseienko is a professional Software Engineer who will create a perfect programmatic solution for your business needs. ' | trans}}
+                <div class="minor-text fw-light" i18n>
+                    Mykyta Moiseienko is a professional Software Engineer who will create a perfect programmatic solution for your business needs. 
                 </div>
             </div>
         </div>
         <div class="focus-image-column" style="--gradient-position: 40%;">
             <div class="web-tech-img"></div>
-            <!-- <img class="mh-100 mw-100" src="/assets/web_tech/1.png" style="transform: scaleX(-1);" /> -->
+            <!-- <img class="mh-100 mw-100" src="./assets/web_tech/1.png" style="transform: scaleX(-1);" /> -->
         </div>
         <div class="focus-btn-column">
             <div class="icon-button-container" [ngClass]="{ 'animate': shouldAnimateMoveDownBtn }">
@@ -40,7 +41,7 @@
         <div>
             <div class="title-block mb-4 text-center">
                 <!-- Offer; How we can solve your needs -->
-                <span class="h2 d-inline">{{'My Offer...' | trans}}</span> 
+                <span class="h2 d-inline" i18n>My Offer...</span> 
             </div>
             <div class="offer-items offer-items-grid mb-4">
                 <div class="offer-item major-left-item card">
@@ -48,28 +49,20 @@
                         <div class="holo">
                             <mat-icon inline="true" class="">lightbulb</mat-icon>
                         </div>
-                        <div>
-                            {{'Creating a new system' | trans}}
-                        </div>
+                        <div i18n>Creating a new system</div>
                     </div>
                     <div class="major-item-side major-item-side-subitems w-60">
                         <div class="offer-subitem">
                             <div class="holo d-none">
                                 <mat-icon inline="true" class="">savings</mat-icon>
                             </div>
-                            <div class="text-start">
-                                {{'Automation saves human hours and improves speed of processes in your company' | trans}}
-                            </div>
+                            <div class="text-start" i18n>Automation saves human hours and improves speed of processes in your company</div>
                         </div>
                         <div class="offer-subitem">
-                            <div class="text-start">
-                                {{'More reliable processes because human factor is reduced' | trans}}
-                            </div>
+                            <div class="text-start" i18n>More reliable processes because human factor is reduced</div>
                         </div>
                         <div class="offer-subitem">
-                            <div class="text-start">
-                                {{'Easy to use solution, accessible from all devices' | trans}}
-                            </div>
+                            <div class="text-start" i18n>Easy to use solution, accessible from all devices</div>
                         </div>
                     </div>
                 </div>
@@ -77,25 +70,19 @@
                     <div class="holo">
                         <mat-icon inline="true" class="">thumb_up</mat-icon>
                     </div>  
-                    <div>
-                        {{'Replacing an expensive or inconvenient systems' | trans}}
-                    </div>
+                    <div i18n>Replacing an expensive or inconvenient systems</div>
                 </div>
                 <div class="offer-item card">
                     <div class="holo">
                         <mat-icon inline="true" class="">insights</mat-icon>
                     </div>  
-                    <div>
-                        {{'Integrating with existing IT systems' | trans}}
-                    </div>
+                    <div i18n>Integrating with existing IT systems</div>
                 </div>
                 <div class="offer-item card">
                     <div class="holo">
                         <mat-icon inline="true" class="">more_horiz</mat-icon>
                     </div>  
-                    <div>
-                        {{'And more' | trans}}
-                    </div>
+                    <div i18n>And more</div>
                 </div>
             </div>
         </div>
@@ -108,7 +95,7 @@
         <div class="d-flex align-items-center flex-basis-100 flex-column justify-content-center">
             <div class="title-block mb-4 d-flex 
                 align-items-center justify-content-center">
-                <span class="h5 d-inline">{{'... and how we can proceed' | trans}}</span> 
+                <span class="h5 d-inline" i18n>... and how we can proceed</span> 
             </div>
             <div class="offer-items offer-items-flex roadmap-items 
                         flex-md-row flex-column">
@@ -117,9 +104,7 @@
                         <mat-icon inline="true" class="">waving_hand</mat-icon>
                     </div>
                     <div>
-                        <a mat-stroked-button (click)="openBottomSheet()">
-                            {{'First contact' | trans}}
-                        </a>
+                        <a mat-stroked-button (click)="openBottomSheet()" i18n>First contact</a>
                     </div>
                 </div>
                 <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
@@ -127,36 +112,28 @@
                     <div class="holo">
                         <mat-icon inline="true" class="">assignment</mat-icon>
                     </div>  
-                    <div>
-                        {{'Understanding your needs' | trans}}
-                    </div>
+                    <div i18n>Understanding your needs</div>
                 </div>
                 <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
                 <div class="offer-item">
                     <div class="holo">
                         <mat-icon inline="true" class="">handshake</mat-icon>
                     </div>  
-                    <div>
-                        {{'Agreement' | trans}}
-                    </div>
+                    <div i18n>Agreement</div>
                 </div>
                 <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
                 <div class="offer-item">
                     <div class="holo">
                         <mat-icon inline="true" class="rotation-animation">settings</mat-icon>
                     </div>  
-                    <div>
-                        {{'Implementation' | trans}}
-                    </div>
+                    <div i18n>Implementation</div>
                 </div>
                 <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
                 <div class="offer-item">
                     <div class="holo">
                         <mat-icon inline="true" class="">thumb_up</mat-icon>
                     </div>  
-                    <div>
-                        {{'Done' | trans}}
-                    </div>
+                    <div i18n>Done</div>
                 </div>
             </div>
         </div>
@@ -165,11 +142,13 @@
         - technology generalism 
         - specialization in Web gives a lot of possibilities
         - responsibility and satisfactory result for all stakeholders
+        - solutions "під ключ"
         - presentation of my past projects
         - Supporting local businesses in Czestochowa. Readiness to work on international projects, experience with projects from EU, US, Asia and Africa. 
     -->
     <div class="about-banner content-banner container">
         <div class="title-block mb-4 text-center">
+            <span class="h2 d-inline" i18n>About </span>
             <span class="h2 d-inline">{{'About' | trans}} </span>
             <img alt="Mykyta Moiseienko Logo" src="/assets/logo.png" />
         </div>
@@ -200,7 +179,7 @@
     </div>
     <div>
         <div class="title-block mb-4 text-center">
-            <span class="h2 d-inline">{{'Projects' | trans}}</span>
+            <span class="h2 d-inline" i18n>Projects</span>
         </div>
         <!-- TODO -->
     </div>

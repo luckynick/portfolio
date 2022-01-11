@@ -8,11 +8,11 @@ TODO: Footer?
 <div class="toolbar" role="banner">
   <div class="container" [style.height]="headerHeightPx + 'px'">
     <img width="40" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
-    <span>{{'is' | trans}} Mykyta Moiseienko</span>
+    <span i18n>is Mykyta Moiseienko</span>
     <div class="spacer"></div>
     <a mat-stroked-button color="" (click)="openBottomSheet()" 
-      style="background-color: var(--background-color)">
-        {{'Contact me' | trans}}
+      style="background-color: var(--background-color)" i18n>
+        Contact me
     </a>
   </div>
 </div>
