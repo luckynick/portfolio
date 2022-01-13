@@ -27,7 +27,7 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
 }
 
 .web-tech-img {
-    background-image: url(/assets/web_tech/1.png);
+    background-image: url(../../assets/web_tech/1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-y: center;
@@ -130,7 +130,7 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
 .offer-banner {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-around;
 
     .holo {
         width: 100px;
@@ -274,6 +274,14 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
     .title-block {
         img {
             height: 25px;
+        }
+    }
+
+    .assets-enumeration {
+
+        mat-icon {
+            vertical-align: bottom;
+            margin-right: 5px;
         }
     }
 }
