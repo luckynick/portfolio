@@ -74,6 +74,9 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "pl": {
+              "localize": ["pl"]
             }
           },
           "defaultConfiguration": "production"
@@ -86,6 +89,9 @@
             },
             "development": {
               "browserTarget": "portfolio:build:development"
+            },
+            "pl": {
+              "browserTarget": "portfolio:build:pl"
             }
           },
           "defaultConfiguration": "development"

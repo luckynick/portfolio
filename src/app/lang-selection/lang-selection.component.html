@@ -1,0 +1,24 @@
+<ng-template #btnTemplate let-langCode="langCode" let-lang="lang">
+    <button mat-menu-item data-lang="en" (click)="onLangClick(langCode)" 
+        [disabled]="isLangDisabled(langCode)">
+        <span>{{lang}}</span>
+    </button>
+</ng-template>
+
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Language selection">
+    <mat-icon>language</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+    <ng-container *ngTemplateOutlet="btnTemplate; context: { langCode: 'en', lang: 'English' }"></ng-container>
+    <ng-container *ngTemplateOutlet="btnTemplate; context: { langCode: 'pl', lang: 'Polski' }"></ng-container>
+    <!--
+    <button #btn mat-menu-item data-lang="en" (click)="onLangClick(btn)" 
+        [disabled]="isLangDisabled(btn)">
+        <span>English</span>
+    </button>
+    <button #btn2 mat-menu-item data-lang="pl" (click)="onLangClick(btn2)" 
+        [disabled]="isLangDisabled(btn2)">
+        <span>Polski</span>
+    </button>
+    -->
+</mat-menu>
