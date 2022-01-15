@@ -1,5 +1,4 @@
 <!--
-TODO: Header navs with status indication depending on the scroll position
 TODO: Translate
 TODO: Footer? 
 -->
@@ -9,7 +8,8 @@ TODO: Footer?
   <div class="container" [style.height]="headerHeightPx + 'px'">
     <img width="40" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
     <span i18n>is Mykyta Moiseienko</span>
-    <app-nav-bar class="spacer"></app-nav-bar>
+    <div class="spacer d-block d-md-none"></div>
+    <app-nav-bar class="spacer d-none d-md-block"></app-nav-bar>
     <a mat-stroked-button color="" (click)="openBottomSheet()" 
       style="background-color: var(--background-color)" i18n>
         Contact me

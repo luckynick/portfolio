@@ -23,7 +23,16 @@ export class NavServiceService {
 
   constructor(private scrollService: WindowScrollService) {
     combineLatest([scrollService.scroll$, this._anchorsDelayed$]).pipe(throttleTime(500, undefined, { trailing: true })).subscribe(([scrollY, ancnors]) => {
-      const currentAnchor = this.anchorsSorted.find(el => el.getYPos() < scrollY + window.innerHeight / 2);
+      const currentScroll = scrollY + window.innerHeight / 2;
+      //let currentAnchor = this.anchorsSorted.find(el => el.getYPos() < currentScroll);
+      let currentAnchor: NavAnchorDirective | undefined, minDistance = Number.MAX_VALUE;
+      for(const anchor of this.anchorsSorted) {
+        const currentDistance = currentScroll - anchor.getYPos();
+        if(currentDistance >= 0 && currentDistance < minDistance) {
+          currentAnchor = anchor;
+          minDistance = currentDistance;
+        }
+      }
       this._currentAnchor$.next(currentAnchor);
     });
   }

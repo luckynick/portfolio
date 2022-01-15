@@ -1,6 +1,9 @@
 
 .nav-item {
     position: relative;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-color .3s;
 
     &::before {
         --dot-radius: 2.5px;
@@ -22,5 +25,9 @@
 
     &.active::before {
         opacity: 1;
+    }
+
+    &:not(.active):hover {
+        border-color: var(--on-background-primary-text-color);
     }
 }

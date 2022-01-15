@@ -1,4 +1,6 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import values from '../../values';
 import { NavAnchorDirective } from '../nav-anchor.directive';
 import { NavServiceService } from '../service/nav-service.service';
 
@@ -12,7 +14,10 @@ export class NavBarComponent implements OnInit {
   navAnchors: NavAnchorDirective[] = [];
   currentAnchor = '';
 
-  constructor(public navService: NavServiceService) {
+  constructor(
+    public navService: NavServiceService,
+    private _viewportScroller: ViewportScroller,
+    ) {
     navService.anchors$.subscribe(anchors => {
       this.navAnchors = anchors;
     });
@@ -24,6 +29,10 @@ export class NavBarComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  onNavItemClick(navAnchor: NavAnchorDirective) {
+    this._viewportScroller.scrollToPosition([0, navAnchor.getYPos() - values.HEADER_CONTENT_OFFSET_PX]);
   }
 
 }
