@@ -20,7 +20,6 @@ import { NavAnchorDirective } from './nav-anchor.directive';
 @NgModule({
   declarations: [
     AppComponent,
-    TransPipe,
     HomeComponent,
     ContactBottomSheetComponent,
     NavBarComponent,
