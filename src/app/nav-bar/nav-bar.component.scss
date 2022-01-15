@@ -1,0 +1,26 @@
+
+.nav-item {
+    position: relative;
+
+    &::before {
+        --dot-radius: 2.5px;
+        content: "";
+        border-radius: var(--dot-radius);
+        background-color: var(--on-background-accent-text-color);
+        width: calc(var(--dot-radius) * 2);
+        height: calc(var(--dot-radius) * 2);
+
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        opacity: 0;
+        transition: opacity .25s;
+        transition-timing-function: linear;
+    }
+
+    &.active::before {
+        opacity: 1;
+    }
+}

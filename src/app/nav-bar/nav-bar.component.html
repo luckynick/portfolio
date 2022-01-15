@@ -1,0 +1,5 @@
+<div class="nav-items d-flex justify-content-center">
+    <ng-container *ngFor="let navAnchor of (navService.anchors$ | async)">
+        <div *ngIf="navAnchor.getText(); let text" class="nav-item mx-4" [class.active]="text === currentAnchor">{{text}}</div>
+    </ng-container>
+</div>
