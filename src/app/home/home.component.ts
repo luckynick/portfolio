@@ -11,6 +11,11 @@ import { ContactBottomSheetComponent } from '../contact-bottom-sheet/contact-bot
 })
 export class HomeComponent implements OnInit {
 
+  get expYears() {
+    // 20.10.2017
+    return new Date().getFullYear() - new Date(1508454000000).getFullYear() - 1;
+  }
+
   shouldAnimateMoveDownBtn = true;
 
   constructor(

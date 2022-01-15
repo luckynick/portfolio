@@ -29,7 +29,7 @@
     <br>
     <div id="moveDownScrollHere"></div>
     <!-- h-md-fh -->
-    <div class="offer-banner content-banner container h-md-fh mb-5 mb-md-0">
+    <div class="offer-banner content-banner container h-md-fh mb-5 mb-xxl-0">
         <!-- What can be achieved  -->
         <!-- New system. lightbulb auto_awesome 
             - automation can save human hours and improve speed of processes in your company. savings euro_symbol payments
@@ -149,28 +149,33 @@
     <div class="about-banner content-banner container">
         <div class="title-block mb-4 text-center">
             <span class="h2 d-inline" appNavAnchor i18n>About </span>
+            <img alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
         </div>
         <div class="row">
             <div class="col-12 col-md-7">
                 <!-- TODO: indicate my specializations and capabilities (Web and programming generalist; Frontend, Backend, Databases, Server setup, Accompanying services, Maintenance of a product...) -->
             </div>
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5 assets-enumeration">
                 <p class="h5">
-                    <span class="">{{'Mykyta Moiseienko' | trans}}</span>{{' is a ' | trans}}<span class="text-accent">{{'professional Software Engineer' | trans}}.</span>
-
-                    <!--
-                    {{'He is in the industry since 2017 and took part in several projects from US, EU, Asia and Africa. ' 
-                    + 'His qualification is proven by a corresponding degree in one of the esteemed universities in Poland. ' | trans}}
-                    -->
+                    Mykyta Moiseienko is a <span class="text-accent" i18n>professional Software Engineer.</span>
                 </p>
                 <p class="h5">
-                    <mat-icon color="primary">done</mat-icon> In the industry since 2017;
+                    <mat-icon color="primary">done</mat-icon> 
+                    <span i18n>{{expYears}} {expYears, plural, =1 {year} other {years}} in the industry;</span>
                 </p>
                 <p class="h5">
-                    <mat-icon color="primary">done</mat-icon> Several projects from US, EU, Asia and Africa;
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Several projects from US, EU, Asia and Africa;</span>
                 </p>
-                <p class="h5">
-                    <mat-icon color="primary">done</mat-icon> Qualification is proven by a corresponding degree in one of the esteemed universities in Poland;
+                <p class="h5" i18n-matTooltip 
+                matTooltip="Czestochowa University of Technology.">
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Qualification is proven by a corresponding degree in one of the esteemed universities in Poland;</span>
+                </p>
+                <p class="h5" i18n-matTooltip 
+                    matTooltip="Web technology creates a lot of possibilities.">
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Specialist in Web development, competent in fields of Frontend, Backend, Databases and Servers;</span>
+                </p>
+                <p class="h5" i18n-matTooltip matTooltip="Copes easily with new technologies.">
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Programming generalist who is not limited by just one field of Software Development;</span>
                 </p>
             </div>
         </div>
