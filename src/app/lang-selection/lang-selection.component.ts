@@ -20,7 +20,6 @@ export class LangSelectionComponent implements OnInit {
 
   isLangDisabled(lang: string) {
     //const lang = buttonElem._getHostElement().getAttribute('data-lang');
-    console.log(`location - lang: ${location.pathname} - ${lang}`);
     return location.pathname.startsWith('/' + lang);
   }
 
