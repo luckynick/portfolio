@@ -1,4 +1,6 @@
 
+@use '../../mixins';
+
 $card-bg-color: rgba(255, 255, 255, 0.19);
 
 @keyframes up-down-animation {
@@ -12,6 +14,8 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
     0%   { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+@include mixins.keyframe-text-slider-full(text-spinner-animation-full, 3);
 
 @mixin mm-card {
     background: $card-bg-color;
@@ -119,9 +123,9 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
 
 .content-banner {
 
-    .title-block {
+    .title-block, .focus-text-column {
 
-        img {
+        .logo-img {
             vertical-align: baseline;
         }
     }
@@ -271,8 +275,8 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
 
 .about-banner {
 
-    .title-block {
-        img {
+    .title-block, .focus-text-column {
+        .logo-img {
             height: 25px;
         }
     }
@@ -282,6 +286,30 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
         mat-icon {
             vertical-align: bottom;
             margin-right: 5px;
+        }
+    }
+
+    .focus-text {
+        height: 70px;
+        line-height: 70px;
+        overflow: hidden;
+
+        .spinner {
+
+            &:hover > * {
+                animation-play-state: paused;
+            }
+
+            & > * {
+                animation-name: text-spinner-animation-full;
+                animation-duration: 10s;
+                animation-delay: 2s;
+                animation-iteration-count: infinite;
+            }
+
+            @media (min-width: 1200px) {
+                height: 100%;//2.65rem;
+            }
         }
     }
 }

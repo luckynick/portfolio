@@ -1,0 +1,14 @@
+
+@mixin keyframe-text-slider-full($prefix, $steps) {
+    @keyframes #{$prefix} {
+        @for $i from 0 to $steps {
+            $perc: $i / $steps * 60%;
+            $trans-val: translateY(-100% * ($i));
+            #{$perc} { transform: $trans-val; }
+            #{$perc + 10%} { transform: $trans-val; }
+        }
+        60% { transform: translateY(-100% * $steps); }
+        90% { transform: translateY(-100% * $steps); }
+        100% { transform: translateY(0%); }
+    }
+}
