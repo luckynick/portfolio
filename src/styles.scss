@@ -114,6 +114,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .h-fh {
   height: calc(100vh - var(--top-banner-top-margin));
 }
+.w-100px {
+  width: 100px !important;
+}
 
 // .h2-width {
 //   @include calc(rfs($h2-font-size, width) + 1rem);
