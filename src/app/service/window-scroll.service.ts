@@ -1,6 +1,6 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Inject, Injectable, PLATFORM_ID } from '@angular/core';
-import { empty, fromEvent, map, Observable, share } from 'rxjs';
+import { EMPTY, fromEvent, map, Observable, share } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +23,7 @@ export class WindowScrollService {
     }
     else{
       //in non-browser environments, provide an empty observable so you can safely subscribe to scroll$
-      this.scroll$ = empty();
+      this.scroll$ = EMPTY;
       
     }
   }

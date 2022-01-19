@@ -33,6 +33,7 @@ export class NavBarComponent implements OnInit {
 
   onNavItemClick(navAnchor: NavAnchorDirective) {
     this._viewportScroller.scrollToPosition([0, navAnchor.getYPos() - values.HEADER_CONTENT_OFFSET_PX]);
+    this.navService.scrolledTo(navAnchor);
   }
 
 }
