@@ -18,6 +18,7 @@ import { ContactBottomSheetComponent } from './contact-bottom-sheet/contact-bott
 import { LangSelectionComponent } from './lang-selection/lang-selection.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NavAnchorDirective } from './nav-anchor.directive';
+import { ContactButtonComponent } from './contact-button/contact-button.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { NavAnchorDirective } from './nav-anchor.directive';
     LangSelectionComponent,
     NavBarComponent,
     NavAnchorDirective,
+    ContactButtonComponent,
   ],
   imports: [
     BrowserModule,

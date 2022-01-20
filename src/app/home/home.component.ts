@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import values from '../../values';
-import { MatBottomSheet } from '@angular/material/bottom-sheet';
-import { ContactBottomSheetComponent } from '../contact-bottom-sheet/contact-bottom-sheet-component';
 
 @Component({
   selector: 'app-home',
@@ -19,8 +17,7 @@ export class HomeComponent implements OnInit {
   shouldAnimateMoveDownBtn = true;
 
   constructor(
-    private _viewportScroller: ViewportScroller,
-    private _bottomSheet: MatBottomSheet
+    private _viewportScroller: ViewportScroller
     ) {
     this._viewportScroller.setOffset([0, values.HEADER_CONTENT_OFFSET_PX]);
   }
@@ -32,10 +29,6 @@ export class HomeComponent implements OnInit {
     this.shouldAnimateMoveDownBtn = false;
 
     this._viewportScroller.scrollToAnchor('moveDownScrollHere');
-  }
-
-  openBottomSheet(): void {
-    this._bottomSheet.open(ContactBottomSheetComponent);
   }
 
   onSwiper(swiper: any) {

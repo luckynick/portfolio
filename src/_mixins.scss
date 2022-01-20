@@ -2,7 +2,7 @@
 @mixin keyframe-text-slider-full($prefix, $steps) {
     @keyframes #{$prefix} {
         @for $i from 0 to $steps {
-            $perc: $i / $steps * 60%;
+            $perc: calc($i / $steps * 60%);
             $trans-val: translateY(-100% * ($i));
             #{$perc} { transform: $trans-val; }
             #{$perc + 10%} { transform: $trans-val; }

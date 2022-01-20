@@ -104,7 +104,7 @@
                         <mat-icon inline="true" class="">waving_hand</mat-icon>
                     </div>
                     <div>
-                        <a mat-stroked-button (click)="openBottomSheet()" i18n>First contact</a>
+                        <app-contact-button i18n>First contact</app-contact-button>
                     </div>
                 </div>
                 <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
@@ -170,26 +170,26 @@
                 </div>
             </div>
             <div class="col-12 col-md-5 assets-enumeration">
-                <p class="h5">
+                <p class="h6">
                     Mykyta Moiseienko is a <span class="text-accent" i18n>professional Software Engineer.</span>
                 </p>
-                <p class="h5">
+                <p class="h6">
                     <mat-icon color="primary">done</mat-icon> 
-                    <span i18n>{{expYears}} {expYears, plural, =1 {year} other {years}} in the industry;</span>
+                    <span i18n>{{expYears}} {expYears, plural, =1 {year} other {years}} in the industry</span>
                 </p>
-                <p class="h5">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Several projects from US, EU, Asia and Africa;</span>
+                <p class="h6">
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Several projects from US, EU, Asia and Africa</span>
                 </p>
-                <p class="h5" i18n-matTooltip 
+                <p class="h6" i18n-matTooltip 
                 matTooltip="Czestochowa University of Technology.">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Qualification is proven by a corresponding degree in one of the esteemed universities in Poland;</span>
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Qualification is proven by a corresponding degree in one of the esteemed universities in Poland</span>
                 </p>
-                <p class="h5" i18n-matTooltip 
+                <p class="h6" i18n-matTooltip 
                     matTooltip="Web technology creates a lot of possibilities.">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Specialist in Web development, competent in fields of Frontend, Backend, Databases and Servers;</span>
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Specialist in Web development, competent in fields of Frontend, Backend, Databases and Servers</span>
                 </p>
-                <p class="h5" i18n-matTooltip matTooltip="Copes easily with new technologies.">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Programming generalist who is not limited by just one field of Software Development;</span>
+                <p class="h6" i18n-matTooltip matTooltip="Copes easily with new technologies.">
+                    <mat-icon color="primary">done</mat-icon> <span i18n>Programming generalist who is not limited by just one field of Software Development</span>
                 </p>
             </div>
         </div>
@@ -203,32 +203,87 @@
             <swiper
                 [spaceBetween]="50"
                 [pagination]="{ clickable: true, dynamicBullets: true }"
+                [mousewheel]="{ forceToAxis: true }"
                 (swiper)="onSwiper($event)"
                 (slideChange)="onSlideChange()"
                 [navigation]="true"
                 >
                 <ng-template swiperSlide>
-                    <div class="container-fluid row h-100">
-                        <div class="col-12 col-md-5">
+                    <div class="slide container-fluid row">
+                        <div class="col-12 col-md-7 col-xxl-8">
+                            <div class="bg-img ws-mock-img"></div>
+                        </div>
+                        <div class="col-12 col-md-5 col-xxl-4 slide-description">
+                            <p class="h4 mb-5 text-center" i18n>Webshop</p>
+                            <p i18n>
+                                This Web project is for the companies from the fashion industry who 
+                                aspire to sell their products to retail customers in the internet. 
+                            </p>
+                            <p i18n>
+                                Orientation to the retails sector raises specific requirements and challenges. 
+                                Ability to cope easily with new technologies is Mykyta's strong asset which was 
+                                in help when solving the challenges of the project.
+                            </p>
+                            <div class="assets-enumeration">
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
+                                    <span i18n>Retail customers</span>
+                                </span>
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
+                                    <span i18n>Website performance improvements</span>
+                                </span>
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
+                                    <span i18n>Search Engine Optimization solutions</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div class="slide container-fluid row">
+                        <div class="col-12 col-md-7 col-xxl-8">
                             <div class="bg-img sa-mock-img"></div>
                         </div>
-                        <div class="col-12 col-md-7" i18n>Text</div>
+                        <div class="col-12 col-md-5 col-xxl-4 slide-description">
+                            <p class="h4 mb-5 text-center" i18n>Customer Portal</p>
+                            <p i18n>
+                                The project is for the customers from the fashion industry who 
+                                aspire to sell their products to retail customers in the internet. 
+                            </p>
+                            <div>
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon> B2B customers
+                                </span>
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon> Abc abc
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </ng-template>
                 <ng-template swiperSlide>
-                    <div class="d-flex flex-wrap">
-                        <div class="col-12 col-md-4">
-                            <div class="sa-desktop-img"></div>
+                    <div class="slide container-fluid row">
+                        <div class="col-12 slide-description">
+                            <p class="h4 mb-4 text-center" i18n>Ask me about my other projects</p>
+                            <p class="text-center" i18n>
+                                Process controll app for a company from the automotive industry. 
+                                Online broadcast and retail platform. 
+                                <br>
+                                Styles prototyping Web application. 
+                                HelpDesk. 
+                                Standalone Java programs. 
+                            </p>
+                            <p class="text-center" i18n>
+                                Many of the projects I was working on are not public. 
+                                Therefore I can not show or share the details. 
+                            </p>
+                            <p class="text-center mb-4" i18n>
+                                On the other hand, I'd be glad to talk with you in person and outline the key aspects of my past works.
+                            </p>
+                            <app-contact-button class="mx-auto" i18n>Contact me</app-contact-button>
                         </div>
-                        <div class="col-12 col-md-8">Text 2</div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="d-flex flex-wrap">
-                        <div class="col-12 col-md-4">
-                            <div class="sa-desktop-img"></div>
-                        </div>
-                        <div class="col-12 col-md-8">Text 3</div>
                     </div>
                 </ng-template>
             </swiper>

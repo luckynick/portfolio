@@ -45,12 +45,25 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
     width: 100%;
     height: 100%;
     background-size: contain;
+    background-position: center;
 }
 .sa-desktop-img {
     background-image: url(../../../heap/ins/sa_desktop.JPG);
 }
 .sa-mock-img {
     background-image: url(../../../heap/ins/mock-sa-desktop-mobile.png);
+}
+.ws-mock-img {
+    background-image: url(../../../heap/ins/mock-ws-desktop.png);
+}
+
+mat-icon.check-icon {
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.card {
+    @include mm-card();
 }
 
 .content {
@@ -206,10 +219,6 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
             flex-direction: column;
             align-items: center;
 
-            &.card {
-                @include mm-card();
-            }
-
             .offer-subitem {
                 align-items: center;
                 display: flex;
@@ -324,6 +333,24 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
 }
 
 .projects-banner {
+
+    .slide {
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .slide-description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .assets-enumeration {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
 
     swiper::ng-deep {
         .swiper-pagination-bullets.swiper-pagination-horizontal {
