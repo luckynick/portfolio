@@ -10,6 +10,7 @@ import { MatListModule, MatNavList } from '@angular/material/list';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatMenuModule } from '@angular/material/menu';
+import { SwiperModule } from 'swiper/angular';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -38,7 +39,8 @@ import { NavAnchorDirective } from './nav-anchor.directive';
     MatListModule,
     FontAwesomeModule,
     MatTooltipModule,
-    MatMenuModule
+    MatMenuModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

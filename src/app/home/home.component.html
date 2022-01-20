@@ -194,10 +194,45 @@
             </div>
         </div>
     </div>
-    <div>
-        <div class="title-block mb-4 text-center">
+    <div class="projects-banner container h-fh
+        d-flex flex-column">
+        <div class="title-block mb-4 text-center" style="flex: 0;">
             <span class="h2 d-inline" appNavAnchor i18n>Projects</span>
         </div>
-        <!-- TODO -->
+        <div class="row" style="flex: 1;">
+            <swiper
+                [spaceBetween]="50"
+                [pagination]="{ clickable: true, dynamicBullets: true }"
+                (swiper)="onSwiper($event)"
+                (slideChange)="onSlideChange()"
+                [navigation]="true"
+                >
+                <ng-template swiperSlide>
+                    <div class="container-fluid row h-100">
+                        <div class="col-12 col-md-5">
+                            <div class="bg-img sa-mock-img"></div>
+                        </div>
+                        <div class="col-12 col-md-7" i18n>Text</div>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div class="d-flex flex-wrap">
+                        <div class="col-12 col-md-4">
+                            <div class="sa-desktop-img"></div>
+                        </div>
+                        <div class="col-12 col-md-8">Text 2</div>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div class="d-flex flex-wrap">
+                        <div class="col-12 col-md-4">
+                            <div class="sa-desktop-img"></div>
+                        </div>
+                        <div class="col-12 col-md-8">Text 3</div>
+                    </div>
+                </ng-template>
+            </swiper>
+        </div>
+        <!-- TODO: Projects -->
     </div>
 </div>

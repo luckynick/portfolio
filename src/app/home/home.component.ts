@@ -38,5 +38,12 @@ export class HomeComponent implements OnInit {
     this._bottomSheet.open(ContactBottomSheetComponent);
   }
 
+  onSwiper(swiper: any) {
+    console.log(swiper);
+  }
+  onSlideChange() {
+    console.log('slide change');
+  }
+
 }
 
