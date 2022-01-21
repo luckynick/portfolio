@@ -161,6 +161,7 @@
                 <div class="focus-text h2">
                     <img class="logo-img" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
                     <span i18n> is </span>
+                    <!-- TODO: fix vertical shift of some items -->
                     <div class="spinner d-inline-flex flex-column">
                         <span i18n>responsibility</span>
                         <span i18n>affordable services</span>
@@ -221,7 +222,7 @@
                             </p>
                             <p i18n>
                                 Orientation to the retails sector raises specific requirements and challenges. 
-                                Ability to cope easily with new technologies is Mykyta's strong asset which was 
+                                Ability to easily cope with new technologies is Mykyta's strong asset which was 
                                 in help when solving the challenges of the project.
                             </p>
                             <div class="assets-enumeration">
@@ -249,15 +250,62 @@
                         <div class="col-12 col-md-5 col-xxl-4 slide-description">
                             <p class="h4 mb-5 text-center" i18n>Customer Portal</p>
                             <p i18n>
-                                The project is for the customers from the fashion industry who 
-                                aspire to sell their products to retail customers in the internet. 
+                                The Customer Portal Web application project provides 
+                                a handy way for internal customers to perform wholesale orders 
+                                and keep track of the corresponding documentation. 
                             </p>
-                            <div>
+                            <p i18n>
+                                Rich set of features and configuration flexibility are the advantages 
+                                of the project. 
+                            </p>
+                            <div class="assets-enumeration">
                                 <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon> B2B customers
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
+                                    <span i18n>B2B customers</span>
                                 </span>
                                 <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon> Abc abc
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
+                                    <span i18n>Server programming (backend)</span>
+                                </span>
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
+                                    <span i18n>Java EE</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <!-- #5a59e5 rgb(90, 89, 229), #599fe5 -->
+                <ng-template swiperSlide>
+                    <div class="slide container-fluid row">
+                        <div class="col-12 col-md-7 col-xxl-8">
+                            <div class="bg-img dvs-mock-img"></div>
+                        </div>
+                        <div class="col-12 col-md-5 col-xxl-4 slide-description">
+                            <p class="h4 text-center" i18n>App for data-via-sound transportation</p>
+                            <p class="mb-5 text-center" i18n>(diploma work)</p>
+                            <p i18n>
+                                This Android application is for transmitting data between 
+                                two devices using sound waves. 
+                            </p>
+                            <p i18n>
+                                Despite Android platform was new for Mykyta, it was a good choice to proof the concept. 
+                                Besides the app, an advanced testing program was created. 
+                                It was used for the research in order to find 
+                                the optimal sound parameters for the best transmission quality. 
+                            </p>
+                            <div class="assets-enumeration">
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
+                                    <span i18n>New technologies</span>
+                                </span>
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
+                                    <span i18n>Sound research</span>
+                                </span>
+                                <span>
+                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
+                                    <span i18n>Android</span>
                                 </span>
                             </div>
                         </div>
@@ -266,8 +314,10 @@
                 <ng-template swiperSlide>
                     <div class="slide container-fluid row">
                         <div class="col-12 slide-description">
-                            <p class="h4 mb-4 text-center" i18n>Ask me about my other projects</p>
-                            <p class="text-center" i18n>
+                            <p class="h4 mb-4 text-center" i18n>Ask me about my 
+                                <span class="text-accent">other projects</span>
+                            </p>
+                            <p class="text-center fw-bold" i18n>
                                 Process controll app for a company from the automotive industry. 
                                 Online broadcast and retail platform. 
                                 <br>
@@ -275,11 +325,9 @@
                                 HelpDesk. 
                                 Standalone Java programs. 
                             </p>
-                            <p class="text-center" i18n>
-                                Many of the projects I was working on are not public. 
-                                Therefore I can not show or share the details. 
-                            </p>
                             <p class="text-center mb-4" i18n>
+                                Many of the projects I was working on are not public. 
+                                Therefore I can not show or share the details. <br>
                                 On the other hand, I'd be glad to talk with you in person and outline the key aspects of my past works.
                             </p>
                             <app-contact-button class="mx-auto" i18n>Contact me</app-contact-button>
@@ -288,6 +336,5 @@
                 </ng-template>
             </swiper>
         </div>
-        <!-- TODO: Projects -->
     </div>
 </div>
