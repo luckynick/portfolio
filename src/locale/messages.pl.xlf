@@ -299,7 +299,7 @@
       </trans-unit>
       <trans-unit id="6338664533778401741" datatype="html">
         <source>Programming generalist who is not limited by just one field of Software Development</source>
-        <target>Generalista programowania który nie jest ograniczony przez jedeną dziedzinę Wytwarzania Oprogramowania</target>
+        <target>Generalista programowania który nie jest ograniczony przez jedną dziedzinę Wytwarzania Oprogramowania</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">193</context>
@@ -480,7 +480,7 @@
       </trans-unit>
       <trans-unit id="7959478053716548635" datatype="html">
         <source> Many of the projects I was working on are not public. Therefore I can not show or share the details. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> On the other hand, I&apos;d be glad to talk with you in person and outline the key aspects of my past works. </source>
-        <target> W przeszłości pracowałem nad wieloma projektami które nie są publiczne. Dlatego nie mogę podzielić się wieloma szczegółami. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Jednak z radością porozmawiałbym z Tobą osobiście i określiłbym kluczowe aspekty moich przeszłyh prac. </target>
+        <target> W przeszłości pracowałem nad wieloma projektami które nie są publiczne. Dlatego nie mogę podzielić się wieloma szczegółami. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Jednak z radością porozmawiałbym osobiście z Tobą i określiłbym kluczowe aspekty moich przeszłyh prac. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">328,332</context>
@@ -488,7 +488,7 @@
       </trans-unit>
       <trans-unit id="1153721192129533394" datatype="html">
         <source>Contact me</source>
-        <source>Skontaktuj się ze mną</source>
+        <target>Skontaktuj się ze mną</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">333</context>
