@@ -32,7 +32,7 @@ import { ContactButtonComponent } from './contact-button/contact-button.componen
     ContactButtonComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
