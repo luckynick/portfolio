@@ -9,8 +9,9 @@
     "test": "ng test",
     "dev:ssr": "ng run portfolio:serve-ssr",
     "serve:ssr": "node dist/portfolio/proxy-server.js",
-    "build:ssr": "ng build --configuration production && ng run portfolio:server && cpx proxy-server.js dist/portfolio",
-    "prerender": "ng run portfolio:prerender"
+    "build:ssr": "ng build --configuration production && ng run portfolio:server && npm run post-build:ssr",
+    "post-build:ssr": "cpx proxy-server.js dist/portfolio",
+    "prerender": "ng run portfolio:prerender && npm run post-build:ssr"
   },
   "private": true,
   "dependencies": {
