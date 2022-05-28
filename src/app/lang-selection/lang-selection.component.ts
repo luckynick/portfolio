@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { MatMenuItem } from '@angular/material/menu';
 
 @Component({
@@ -8,7 +9,9 @@ import { MatMenuItem } from '@angular/material/menu';
 })
 export class LangSelectionComponent implements OnInit {
 
-  constructor() { }
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+    
+  }
 
   ngOnInit(): void {
   }
@@ -20,6 +23,7 @@ export class LangSelectionComponent implements OnInit {
 
   isLangDisabled(lang: string) {
     //const lang = buttonElem._getHostElement().getAttribute('data-lang');
+    if(!isPlatformBrowser(this.platformId)) return false;
     return location.pathname.startsWith('/' + lang);
   }
 
