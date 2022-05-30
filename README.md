@@ -26,5 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Other notes
 ## Help in setting up SSR + i18n
 https://javascript.plainenglish.io/angular-universal-and-i18n-working-together-8828423e8a68
+
+## Merge i18n
+https://github.com/daniel-sc/ng-extract-i18n-merge

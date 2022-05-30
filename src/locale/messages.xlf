@@ -4,7 +4,6 @@
     <body>
       <trans-unit id="8974106421037937638" datatype="html">
         <source>is Mykyta Moiseienko</source>
-        <target>to Mykyta Moiseienko</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">10</context>
@@ -12,7 +11,6 @@
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
-        <target>Kontakt</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">17</context>
@@ -27,7 +25,6 @@
       </trans-unit>
       <trans-unit id="8121141462865337916" datatype="html">
         <source>Phone number</source>
-        <target>Numer komórkowy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-bottom-sheet/contact-bottom-sheet-component.html</context>
           <context context-type="linenumber">11</context>
@@ -35,7 +32,6 @@
       </trans-unit>
       <trans-unit id="471816275243265264" datatype="html">
         <source>Location</source>
-        <target>Lokalizacja</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-bottom-sheet/contact-bottom-sheet-component.html</context>
           <context context-type="linenumber">24</context>
@@ -43,7 +39,6 @@
       </trans-unit>
       <trans-unit id="8431988768572521510" datatype="html">
         <source>Czestochowa, Poland</source>
-        <target>Częstochowa, Polska</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-bottom-sheet/contact-bottom-sheet-component.html</context>
           <context context-type="linenumber">25</context>
@@ -51,7 +46,6 @@
       </trans-unit>
       <trans-unit id="3717473323141010756" datatype="html">
         <source>IT solutions </source>
-        <target>IT rozwiązania </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">7</context>
@@ -59,7 +53,6 @@
       </trans-unit>
       <trans-unit id="178568430978417672" datatype="html">
         <source>for your Business</source>
-        <target>dla Twojego biznesu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">8</context>
@@ -67,7 +60,6 @@
       </trans-unit>
       <trans-unit id="7367733043825595561" datatype="html">
         <source>Done professionally.</source>
-        <target>Wykonane zawodowo.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">9</context>
@@ -75,15 +67,20 @@
       </trans-unit>
       <trans-unit id="8085466612521860020" datatype="html">
         <source> Mykyta Moiseienko is a professional Software Engineer who will create a perfect programmatic solution for your business needs. </source>
-        <target> Mykyta Moiseienko to jest zawodowy Inżynier Oprogramowania który stworzy perfekcyjne rozwiązanie programistyczne dla potrzeb Twojego biznesu. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">11,13</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5980912879753983465" datatype="html">
+        <source>Offer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="7779241627479383965" datatype="html">
         <source>My Offer...</source>
-        <target>Moja oferta...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">44</context>
@@ -91,7 +88,6 @@
       </trans-unit>
       <trans-unit id="272627438348005298" datatype="html">
         <source>Creating a new digital system</source>
-        <target>Tworzenie nowego systemu informatycznego</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">52</context>
@@ -99,7 +95,6 @@
       </trans-unit>
       <trans-unit id="7151043317980584312" datatype="html">
         <source>Automation saves man hours and improves speed of processes in your company</source>
-        <target>Automatyzacja zaoszczędza roboczogodziny oraz przyśpiesza procesy w Twojej firmie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">59</context>
@@ -107,7 +102,6 @@
       </trans-unit>
       <trans-unit id="2530986341390895285" datatype="html">
         <source>More reliable processes because human factor is reduced</source>
-        <target>Bardziej niezawodne procesy ponieważ czynnik ludzki jest zmniejszony</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">62</context>
@@ -115,7 +109,6 @@
       </trans-unit>
       <trans-unit id="1307714238597259713" datatype="html">
         <source>Easy to use solution, accessible from all devices</source>
-        <target>Łatwe do użycia rozwiązania, dostępne dla wszystkich urządzeń</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">65</context>
@@ -123,7 +116,6 @@
       </trans-unit>
       <trans-unit id="1963099837250136430" datatype="html">
         <source>Replacing an expensive or inconvenient systems</source>
-        <target>Zastąpienie drogiego albo niewygodnego systemu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">73</context>
@@ -131,7 +123,6 @@
       </trans-unit>
       <trans-unit id="5065015477530983341" datatype="html">
         <source>Integrating with existing IT systems</source>
-        <target>Integracja z istniejącymi systemami IT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">79</context>
@@ -139,7 +130,6 @@
       </trans-unit>
       <trans-unit id="6416023949526676275" datatype="html">
         <source>And more</source>
-        <target>I więcej</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">85</context>
@@ -147,7 +137,6 @@
       </trans-unit>
       <trans-unit id="3552570108641816831" datatype="html">
         <source>... and how we can proceed</source>
-        <target>... i jak możemy dalej postępować</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">98</context>
@@ -155,7 +144,6 @@
       </trans-unit>
       <trans-unit id="7705601038701481025" datatype="html">
         <source>First contact</source>
-        <target>Pierwszy kontakt</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">107</context>
@@ -163,7 +151,6 @@
       </trans-unit>
       <trans-unit id="3975636136293493937" datatype="html">
         <source>Understanding your needs</source>
-        <target>Zrozumienie Waszych potrzeb</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">115</context>
@@ -171,7 +158,6 @@
       </trans-unit>
       <trans-unit id="624590551953921933" datatype="html">
         <source>Agreement</source>
-        <target>Porozumienie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">122</context>
@@ -179,7 +165,6 @@
       </trans-unit>
       <trans-unit id="7279922168175765753" datatype="html">
         <source>Implementation</source>
-        <target>Realizacja</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">129</context>
@@ -187,15 +172,20 @@
       </trans-unit>
       <trans-unit id="397098723873502323" datatype="html">
         <source>Done</source>
-        <target>Zrobione</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3020243013594111328" datatype="html">
         <source>About Mykyta</source>
-        <target>O Mykycie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">152</context>
@@ -203,7 +193,6 @@
       </trans-unit>
       <trans-unit id="475333784758470943" datatype="html">
         <source> is </source>
-        <target> to </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">163</context>
@@ -211,7 +200,6 @@
       </trans-unit>
       <trans-unit id="7307756801301087675" datatype="html">
         <source>responsibility</source>
-        <target>odpowiedzialność</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">166</context>
@@ -219,7 +207,6 @@
       </trans-unit>
       <trans-unit id="7853776403900970027" datatype="html">
         <source>affordable services</source>
-        <target>przystępne usługi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">167</context>
@@ -227,7 +214,6 @@
       </trans-unit>
       <trans-unit id="292247352280727773" datatype="html">
         <source>quality results</source>
-        <target>wyniki wysokiej jakości</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">168</context>
@@ -235,15 +221,20 @@
       </trans-unit>
       <trans-unit id="8871601143192511456" datatype="html">
         <source>a good solution</source>
-        <target>dobre rozwiązanie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">169</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6656908452983268320" datatype="html">
+        <source>Mykyta Moiseienko is a </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2974951768626909336" datatype="html">
         <source>professional Software Engineer.</source>
-        <target>zawodowy Inżynier Oprogramowania.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">175</context>
@@ -251,7 +242,6 @@
       </trans-unit>
       <trans-unit id="2128594428159550818" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="{{expYears}}"/> <x id="ICU" equiv-text="{expYears, plural, =1 {year} other {years}}" xid="1537255590051660224"/> in the industry</source>
-        <target><x id="INTERPOLATION" equiv-text="{{expYears}}"/> <x id="ICU" equiv-text="{expYears, plural, =1 {year} other {years}}" xid="1537255590051660224"/> w brąży</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">179</context>
@@ -259,7 +249,6 @@
       </trans-unit>
       <trans-unit id="1537255590051660224" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {year} other {years}}</source>
-        <target>{VAR_PLURAL, plural, one {rok} few {lata} many {lat}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">179</context>
@@ -267,7 +256,6 @@
       </trans-unit>
       <trans-unit id="4060347428646407459" datatype="html">
         <source>Several projects from US, EU, Asia and Africa</source>
-        <target>Liczne projekty ze Stanów, UE, Azji oraz Afryki</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">182</context>
@@ -275,7 +263,6 @@
       </trans-unit>
       <trans-unit id="5916894819632714672" datatype="html">
         <source>Czestochowa University of Technology</source>
-        <target>Politechnika Częstochowska</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">185</context>
@@ -283,7 +270,6 @@
       </trans-unit>
       <trans-unit id="5131451218434500257" datatype="html">
         <source>Qualification is proven by a corresponding degree in one of the esteemed universities in Poland</source>
-        <target>Kwalifikacje potwierdza dyplom jednego z renomowanych uniwersytetów Polski</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">186</context>
@@ -291,7 +277,6 @@
       </trans-unit>
       <trans-unit id="6969532867893224509" datatype="html">
         <source>Specialist in Web development, competent in fields of Frontend, Backend, Databases and Servers</source>
-        <target>Specjalista Web, kompetentny w zakresach Frontend, Backend, Baz danych i Serwerów</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">189</context>
@@ -299,7 +284,6 @@
       </trans-unit>
       <trans-unit id="6338664533778401741" datatype="html">
         <source>Programming generalist who is not limited by just one field of Software Development</source>
-        <target>Generalista programowania który nie jest ograniczony przez jedną dziedzinę Wytwarzania Oprogramowania</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">192</context>
@@ -307,7 +291,6 @@
       </trans-unit>
       <trans-unit id="7091571651222742304" datatype="html">
         <source>Projects</source>
-        <target>Projekty</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">200</context>
@@ -315,7 +298,6 @@
       </trans-unit>
       <trans-unit id="6334911164365104853" datatype="html">
         <source>Webshop</source>
-        <target>Sklep internetowy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">217</context>
@@ -323,7 +305,6 @@
       </trans-unit>
       <trans-unit id="7887740822416726275" datatype="html">
         <source> This Web project is for the companies from the fashion industry who aspire to sell their products to retail customers in the internet. </source>
-        <target> Ten projekt webowy jest przeznaczony dla firm z brąży fashion które pragną sprzedawać swoje produkty klientom indywidualnym w internecie. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">218,221</context>
@@ -331,7 +312,6 @@
       </trans-unit>
       <trans-unit id="2503237102175404117" datatype="html">
         <source> Orientation to the retail sector raises specific requirements and challenges. Ability to easily cope with new technologies is Mykyta&apos;s strong asset which was in help when solving the challenges of the project. </source>
-        <target> Akcent na sektor sprzedaży indywidualnych podejmuje specyficzne wymagania oraz wyzwania. Umiejętność łatwego radzenia sobie z nowymi technologiami to jest mocny atut Mykyty. To w dużym stopniu pomagało w pokonywaniu wyzwań tego projektu. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">222,226</context>
@@ -339,7 +319,6 @@
       </trans-unit>
       <trans-unit id="8314732567424245603" datatype="html">
         <source>Retail customers</source>
-        <target>Klienci indywidualni</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">230</context>
@@ -347,7 +326,6 @@
       </trans-unit>
       <trans-unit id="7382123207803264639" datatype="html">
         <source>Website performance improvements</source>
-        <target>Ulepszenie wydajności</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">234</context>
@@ -355,7 +333,6 @@
       </trans-unit>
       <trans-unit id="61777862148470305" datatype="html">
         <source>Search Engine Optimization solutions</source>
-        <target>Rozwiązania SEO</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">238</context>
@@ -370,7 +347,6 @@
       </trans-unit>
       <trans-unit id="9220312607395644279" datatype="html">
         <source> The Customer Portal Web application project provides a handy way for internal customers to perform wholesale orders and keep track of the corresponding documentation. </source>
-        <target> Customer Portal to jest aplikacja webowa umożliwiająca klientom wewnętrznym dokonywanie hurtowych zamówień w wygodny sposób. Użytkownik także ma dostęp do odpowiedniej dokumentacji. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">251,255</context>
@@ -378,7 +354,6 @@
       </trans-unit>
       <trans-unit id="6049472578557173764" datatype="html">
         <source> Rich set of features and configuration flexibility are the advantages of the project. </source>
-        <target> Zaletami tego projektu są rozbudowane funkcjalności oraz szerokie możliwości konfigurowania. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">256,259</context>
@@ -386,7 +361,6 @@
       </trans-unit>
       <trans-unit id="3407282725129275578" datatype="html">
         <source>B2B customers</source>
-        <target>Klienci B2B</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">263</context>
@@ -394,7 +368,6 @@
       </trans-unit>
       <trans-unit id="4869383601045854616" datatype="html">
         <source>Server programming (backend)</source>
-        <target>Programowanie serwerów (backend)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">267</context>
@@ -409,7 +382,6 @@
       </trans-unit>
       <trans-unit id="5922781407102751107" datatype="html">
         <source>App for data-via-sound transportation</source>
-        <target>Aplikacja dla przekazywania danych poprzez dzwięk</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">284</context>
@@ -417,7 +389,6 @@
       </trans-unit>
       <trans-unit id="8291288436871797656" datatype="html">
         <source>(diploma work)</source>
-        <target>(praca dyplomowa)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">285</context>
@@ -425,7 +396,6 @@
       </trans-unit>
       <trans-unit id="2222430138799053726" datatype="html">
         <source> This Android application is for transmitting data between devices using sound waves. </source>
-        <target> Ta aplikacja Android służy do przekazywania danych między urządzeniami za pomocą fal dźwiękowych. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">286,289</context>
@@ -433,7 +403,6 @@
       </trans-unit>
       <trans-unit id="1269403406066414184" datatype="html">
         <source> Despite Android platform was new for Mykyta, it was a good choice to proof the concept. Besides the app, an advanced testing program was created. It was used for the research in order to find the optimal sound parameters for the best transmission quality. </source>
-        <target> Mimo że platforma Android była nowością dla Mykyty, był to dobry wybór, aby zrealizować koncepcję. Oprócz samej aplikacji, zaawansowane narzędzie do testowania zostało stworzone. Było ono wykorzystane dla badania w celu znalezienia optymalnych parametrów dźwięku dla najlepszej jakości przekazywania danych. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">290,295</context>
@@ -441,7 +410,6 @@
       </trans-unit>
       <trans-unit id="2196998353124318868" datatype="html">
         <source>New technologies</source>
-        <target>Nowe technologie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">299</context>
@@ -449,7 +417,6 @@
       </trans-unit>
       <trans-unit id="686057993107192303" datatype="html">
         <source>Sound research</source>
-        <target>Badanie w zakresie dźwięku</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">303</context>
@@ -464,7 +431,6 @@
       </trans-unit>
       <trans-unit id="7862728959373637599" datatype="html">
         <source>Ask me about my <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-accent&quot;&gt;"/>other projects<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Zapytaj mnie o <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-accent&quot;&gt;"/>inne moje projekty<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">316,317</context>
@@ -472,7 +438,6 @@
       </trans-unit>
       <trans-unit id="3019975837201375746" datatype="html">
         <source> Process controll app for a company from the automotive industry. Online broadcast and retail platform. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Styles prototyping Web application. HelpDesk. Standalone Java programs. </source>
-        <target> Aplikacja zarządzania procesami dla firmy z brąży automotive. Platforma transmisji oraz sprzedaży online. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Aplikacja Webowa do prototypowania styli. HelpDesk. Standalone programy Java. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">319,326</context>
@@ -480,7 +445,6 @@
       </trans-unit>
       <trans-unit id="7959478053716548635" datatype="html">
         <source> Many of the projects I was working on are not public. Therefore I can not show or share the details. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> On the other hand, I&apos;d be glad to talk with you in person and outline the key aspects of my past works. </source>
-        <target> W przeszłości pracowałem nad wieloma projektami które nie są publiczne. Dlatego nie mogę podzielić się wieloma szczegółami. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Jednak z radością porozmawiałbym osobiście z Tobą i określiłbym kluczowe aspekty moich przeszłyh prac. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">327,331</context>
@@ -488,42 +452,16 @@
       </trans-unit>
       <trans-unit id="1153721192129533394" datatype="html">
         <source>Contact me</source>
-        <target>Skontaktuj się ze mną</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">332</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5980912879753983465" datatype="html">
-        <source>Offer</source>
-        <target>Oferta</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1726363342938046830" datatype="html">
-        <source>About</source>
-        <target>O mnie</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">152</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="2535610232543958022" datatype="html">
         <source>Professional programmer who will solve your problem</source>
-        <target>Zawodowy programista który pomoże z Twoimi problemami</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.ts</context>
           <context context-type="linenumber">28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6656908452983268320" datatype="html">
-        <source>Mykyta Moiseienko is a </source>
-        <target>Mykyta Moiseienko to </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">175</context>
         </context-group>
       </trans-unit>
     </body>

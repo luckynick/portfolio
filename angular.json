@@ -99,7 +99,8 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portfolio:build"
+            "browserTarget": "portfolio:build",
+            "outputPath": "src/locale"
           }
         },
         "test": {
@@ -180,6 +181,21 @@
             }
           },
           "defaultConfiguration": "production"
+        },
+        "extract-i18n-merge": {
+          "builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
+          "options": {
+            "browserTarget": "portfolio:build",
+            "format": "xlf",
+            "outputPath": "src/locale",
+            "targetFiles": [
+              "messages.pl.xlf"
+            ],
+            "includeContext": true,
+            "sort": "stableAppendNew",
+            "resetTranslationState": false,
+            "collapseWhitespace": false
+          }
         }
       }
     }

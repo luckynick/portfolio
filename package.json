@@ -11,7 +11,8 @@
     "serve:ssr": "node dist/portfolio/proxy-server.js",
     "build:ssr": "ng build --configuration production && ng run portfolio:server && npm run post-build:ssr",
     "post-build:ssr": "cpx proxy-server.js dist/portfolio",
-    "prerender": "ng run portfolio:prerender && npm run post-build:ssr"
+    "prerender": "ng run portfolio:prerender && npm run post-build:ssr",
+    "extract-i18n-merge": "ng run portfolio:extract-i18n-merge"
   },
   "private": true,
   "dependencies": {
@@ -55,6 +56,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.0.1",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "ng-extract-i18n-merge": "^2.0.0-1",
     "typescript": "~4.6.4"
   }
 }
