@@ -91,6 +91,13 @@ body {
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+.content {
+    display: flex;
+    margin: var(--top-banner-top-margin) auto 32px;
+    flex-direction: column;
+    align-items: stretch;
+}
+
 .text-accent {
   color: var(--on-background-accent-text-color);
 }
@@ -123,4 +130,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: calc(100vh - var(--top-banner-top-margin));
   }
   
+}
+
+mat-icon.check-icon {
+    vertical-align: bottom;
+    margin-right: 5px;
 }

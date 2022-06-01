@@ -19,6 +19,9 @@ import { LangSelectionComponent } from './lang-selection/lang-selection.componen
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NavAnchorDirective } from './nav-anchor.directive';
 import { ContactButtonComponent } from './contact-button/contact-button.component';
+import { WebshopPageComponent } from './content/webshop-page/webshop-page.component';
+import { CusPortalPageComponent } from './content/cus-portal-page/cus-portal-page.component';
+import { DataViaSoundPageComponent } from './content/data-via-sound-page/data-via-sound-page.component';
 
 
 @NgModule({
@@ -30,6 +33,9 @@ import { ContactButtonComponent } from './contact-button/contact-button.componen
     NavBarComponent,
     NavAnchorDirective,
     ContactButtonComponent,
+    WebshopPageComponent,
+    CusPortalPageComponent,
+    DataViaSoundPageComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
