@@ -14,6 +14,7 @@ export function app(lang: string): express.Express {
   const server = express();
   const distFolder = join(process.cwd(), 'dist/portfolio/browser/' + lang);
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
+  const cache = new Map();
 
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/master/modules/express-engine)
   server.engine('html', ngExpressEngine({
@@ -32,16 +33,36 @@ export function app(lang: string): express.Express {
   }));
 
   // All regular routes use the Universal engine
-  server.get(`*`, (req, res) => {
-    res.render(
-      indexHtml, 
-      { 
-        req, 
-        providers: [
-          { provide: APP_BASE_HREF, useValue: req.baseUrl }
-        ] 
-      });
-  });
+  server.get(`*`, 
+    // Middleware to check if cached response exists
+    (req, res, next) => {
+      const cachedHtml = cache.get(req.url);
+      if (cachedHtml) {
+        // Cache exists. Send it.
+        res.send(cachedHtml);
+      } else {
+        // Cache does not exist. Render a response using the Angular app
+        next();
+      }
+    },
+    (req, res) => {
+      res.render(
+        indexHtml, 
+        { 
+          req, 
+          providers: [
+            { provide: APP_BASE_HREF, useValue: req.baseUrl }
+          ] 
+        },
+        (err: Error, html: string) => {
+          // Cache the rendered `html` for this request url to use for subsequent requests
+          cache.set(req.url, html);
+
+          res.send(html);
+        }
+      );
+    }
+  );
 
   return server;
 }
