@@ -6,8 +6,10 @@ TODO1: SSR, SEO
 <!-- Toolbar -->
 <header class="toolbar" role="banner">
   <div class="container" [style.height]="headerHeightPx + 'px'">
-    <img width="40" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
-    <span i18n>is Mykyta Moiseienko</span>
+    <a class="href-neutral" href>
+      <img width="40" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
+      <span class="logo-text" i18n>is Mykyta Moiseienko</span>
+    </a>
     <div class="spacer d-block d-md-none"></div>
     <app-nav-bar class="spacer d-none d-md-block"></app-nav-bar>
     <a mat-icon-button href="tel: +48 792 290 749" class="d-none d-md-block">

@@ -115,6 +115,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .w-100px {
   width: 100px !important;
 }
+.href-neutral {
+  text-decoration: none;
+  color: var(--on-background-text-color);
+  &:hover {
+    color: var(--on-background-text-color);
+  }
+}
 
 // .h2-width {
 //   @include calc(rfs($h2-font-size, width) + 1rem);
