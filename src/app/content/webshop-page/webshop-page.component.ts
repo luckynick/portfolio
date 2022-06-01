@@ -13,7 +13,7 @@ export class WebshopPageComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this._meta.addTag({ name: 'description', content: $localize `Webshop for your business` }, true);
+    this._meta.updateTag({ name: 'description', content: $localize `Webshop for your business` });
   }
 
 }

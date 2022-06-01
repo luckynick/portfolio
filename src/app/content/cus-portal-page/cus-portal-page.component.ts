@@ -13,7 +13,7 @@ export class CusPortalPageComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this._meta.addTag({ name: 'description', content: $localize `Creating software for your needs` }, true);
+    this._meta.updateTag({ name: 'description', content: $localize `Creating software for your needs` });
   }
 
 }

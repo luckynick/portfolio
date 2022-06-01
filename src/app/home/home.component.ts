@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import values from '../../values';
-import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -18,14 +17,13 @@ export class HomeComponent implements OnInit {
   shouldAnimateMoveDownBtn = true;
 
   constructor(
-    private _viewportScroller: ViewportScroller,
-    private _meta: Meta
+    private _viewportScroller: ViewportScroller
     ) {
     this._viewportScroller.setOffset([0, values.HEADER_CONTENT_OFFSET_PX]);
   }
 
   ngOnInit(): void {
-    this._meta.addTag({ name: 'description', content: $localize `Professional programmer who will solve your problem` }, true);
+    
   }
 
   onMoveDownClick(event: any) {
