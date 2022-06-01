@@ -6,14 +6,14 @@
         <source>is Mykyta Moiseienko</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1890300073702152532" datatype="html">
@@ -42,6 +42,138 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-bottom-sheet/contact-bottom-sheet-component.html</context>
           <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6334911164365104853" datatype="html">
+        <source>Webshop</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/cus-portal-page/cus-portal-page.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/data-via-sound-page/data-via-sound-page.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/webshop-page/webshop-page.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7887740822416726275" datatype="html">
+        <source> This Web project is for the companies from the fashion industry who aspire to sell their products to retail customers in the internet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/cus-portal-page/cus-portal-page.component.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/data-via-sound-page/data-via-sound-page.component.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/webshop-page/webshop-page.component.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">218,221</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2503237102175404117" datatype="html">
+        <source> Orientation to the retail sector raises specific requirements and challenges. Ability to easily cope with new technologies is Mykyta&apos;s strong asset which was in help when solving the challenges of the project. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/cus-portal-page/cus-portal-page.component.html</context>
+          <context context-type="linenumber">13,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/data-via-sound-page/data-via-sound-page.component.html</context>
+          <context context-type="linenumber">13,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/webshop-page/webshop-page.component.html</context>
+          <context context-type="linenumber">13,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">222,226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8314732567424245603" datatype="html">
+        <source>Retail customers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/cus-portal-page/cus-portal-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/data-via-sound-page/data-via-sound-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/webshop-page/webshop-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7382123207803264639" datatype="html">
+        <source>Website performance improvements</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/cus-portal-page/cus-portal-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/data-via-sound-page/data-via-sound-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/webshop-page/webshop-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61777862148470305" datatype="html">
+        <source>Search Engine Optimization solutions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/cus-portal-page/cus-portal-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/data-via-sound-page/data-via-sound-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/webshop-page/webshop-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5625059942347066464" datatype="html">
+        <source>Creating software for your needs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/cus-portal-page/cus-portal-page.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/data-via-sound-page/data-via-sound-page.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5492455500877549703" datatype="html">
+        <source>Webshop for your business</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/webshop-page/webshop-page.component.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3717473323141010756" datatype="html">
@@ -296,165 +428,138 @@
           <context context-type="linenumber">200</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6334911164365104853" datatype="html">
-        <source>Webshop</source>
+      <trans-unit id="819996403327805209" datatype="html">
+        <source>Learn more</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">217</context>
+          <context context-type="linenumber">242</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="7887740822416726275" datatype="html">
-        <source> This Web project is for the companies from the fashion industry who aspire to sell their products to retail customers in the internet. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">218,221</context>
+          <context context-type="linenumber">277</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="2503237102175404117" datatype="html">
-        <source> Orientation to the retail sector raises specific requirements and challenges. Ability to easily cope with new technologies is Mykyta&apos;s strong asset which was in help when solving the challenges of the project. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">222,226</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8314732567424245603" datatype="html">
-        <source>Retail customers</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">230</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7382123207803264639" datatype="html">
-        <source>Website performance improvements</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">234</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="61777862148470305" datatype="html">
-        <source>Search Engine Optimization solutions</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">238</context>
+          <context context-type="linenumber">315</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5582430267743024648" datatype="html">
         <source>Customer Portal</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">250</context>
+          <context context-type="linenumber">252</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9220312607395644279" datatype="html">
         <source> The Customer Portal Web application project provides a handy way for internal customers to perform wholesale orders and keep track of the corresponding documentation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">251,255</context>
+          <context context-type="linenumber">253,257</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6049472578557173764" datatype="html">
         <source> Rich set of features and configuration flexibility are the advantages of the project. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">256,259</context>
+          <context context-type="linenumber">258,261</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3407282725129275578" datatype="html">
         <source>B2B customers</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">263</context>
+          <context context-type="linenumber">265</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4869383601045854616" datatype="html">
         <source>Server programming (backend)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">267</context>
+          <context context-type="linenumber">269</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7935402925454660259" datatype="html">
         <source>Java EE</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">271</context>
+          <context context-type="linenumber">273</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5922781407102751107" datatype="html">
         <source>App for data-via-sound transportation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">284</context>
+          <context context-type="linenumber">288</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8291288436871797656" datatype="html">
         <source>(diploma work)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">285</context>
+          <context context-type="linenumber">289</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2222430138799053726" datatype="html">
         <source> This Android application is for transmitting data between devices using sound waves. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">286,289</context>
+          <context context-type="linenumber">290,293</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1269403406066414184" datatype="html">
         <source> Despite Android platform was new for Mykyta, it was a good choice to proof the concept. Besides the app, an advanced testing program was created. It was used for the research in order to find the optimal sound parameters for the best transmission quality. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">290,295</context>
+          <context context-type="linenumber">294,299</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2196998353124318868" datatype="html">
         <source>New technologies</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">299</context>
+          <context context-type="linenumber">303</context>
         </context-group>
       </trans-unit>
       <trans-unit id="686057993107192303" datatype="html">
         <source>Sound research</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">303</context>
+          <context context-type="linenumber">307</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4743341466695708276" datatype="html">
         <source>Android</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">307</context>
+          <context context-type="linenumber">311</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7862728959373637599" datatype="html">
         <source>Ask me about my <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-accent&quot;&gt;"/>other projects<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">316,317</context>
+          <context context-type="linenumber">322,323</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3019975837201375746" datatype="html">
         <source> Process controll app for a company from the automotive industry. Online broadcast and retail platform. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Styles prototyping Web application. HelpDesk. Standalone Java programs. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">319,326</context>
+          <context context-type="linenumber">325,332</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7959478053716548635" datatype="html">
         <source> Many of the projects I was working on are not public. Therefore I can not show or share the details. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> On the other hand, I&apos;d be glad to talk with you in person and outline the key aspects of my past works. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">327,331</context>
+          <context context-type="linenumber">333,337</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1153721192129533394" datatype="html">
         <source>Contact me</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">332</context>
+          <context context-type="linenumber">338</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2535610232543958022" datatype="html">

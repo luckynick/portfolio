@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-webshop-page',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WebshopPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private _meta: Meta
+  ) { }
 
   ngOnInit(): void {
+    this._meta.addTag({ name: 'description', content: $localize `Webshop for your business` }, true);
   }
 
 }
