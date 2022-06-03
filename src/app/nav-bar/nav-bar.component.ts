@@ -1,7 +1,7 @@
 import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import values from '../../values';
-import { NavAnchorDirective } from '../nav-anchor.directive';
+import { NavAnchorDirective } from '../util/nav-anchor.directive';
 import { NavServiceService } from '../service/nav-service.service';
 
 @Component({

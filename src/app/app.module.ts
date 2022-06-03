@@ -17,11 +17,12 @@ import { HomeComponent } from './home/home.component';
 import { ContactBottomSheetComponent } from './contact-bottom-sheet/contact-bottom-sheet-component';
 import { LangSelectionComponent } from './lang-selection/lang-selection.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { NavAnchorDirective } from './nav-anchor.directive';
+import { NavAnchorDirective } from './util/nav-anchor.directive';
 import { ContactButtonComponent } from './contact-button/contact-button.component';
 import { WebshopPageComponent } from './content/webshop-page/webshop-page.component';
 import { CusPortalPageComponent } from './content/cus-portal-page/cus-portal-page.component';
 import { DataViaSoundPageComponent } from './content/data-via-sound-page/data-via-sound-page.component';
+import { ScrollToFragmentDirective } from './util/scroll-to-fragment.directive';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { DataViaSoundPageComponent } from './content/data-via-sound-page/data-vi
     WebshopPageComponent,
     CusPortalPageComponent,
     DataViaSoundPageComponent,
+    ScrollToFragmentDirective,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, combineLatest, debounceTime, EMPTY, Observable, ReplaySubject, skipUntil, startWith, Subject, switchMap, throttleTime, timer } from 'rxjs';
-import { NavAnchorDirective } from '../nav-anchor.directive';
+import { NavAnchorDirective } from '../util/nav-anchor.directive';
 import { WindowScrollService } from './window-scroll.service';
 
 const SCROLL_THROTTLE_TIME = 300;

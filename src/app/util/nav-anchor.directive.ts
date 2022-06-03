@@ -1,5 +1,5 @@
 import { Directive, ElementRef, Input, OnDestroy, OnInit } from '@angular/core';
-import { NavServiceService } from './service/nav-service.service';
+import { NavServiceService } from '../service/nav-service.service';
 
 @Directive({
   selector: '[appNavAnchor]'
