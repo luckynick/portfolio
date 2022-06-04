@@ -1,6 +1,7 @@
 
 @use '../../scss/mixins';
 @use '../../scss/images';
+@use '../../scss/slide';
 
 $card-bg-color: rgba(255, 255, 255, 0.19);
 
@@ -309,23 +310,7 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
 
 .projects-banner {
 
-    .slide {
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-
-        .slide-description {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .assets-enumeration {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-    }
+    @include slide.slide;
 
     swiper::ng-deep {
         .swiper-pagination-bullets.swiper-pagination-horizontal {

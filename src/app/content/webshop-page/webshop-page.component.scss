@@ -1,2 +1,5 @@
 
 @use '../../../scss/images';
+@use '../../../scss/slide';
+
+@include slide.slide;

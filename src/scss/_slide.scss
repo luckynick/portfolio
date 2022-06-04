@@ -1,0 +1,21 @@
+
+
+@mixin slide {
+    .slide {
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        .slide-description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .assets-enumeration {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}
