@@ -32,12 +32,5 @@ export class HomeComponent implements OnInit {
     this._viewportScroller.scrollToAnchor('moveDownScrollHere');
   }
 
-  onSwiper(swiper: any) {
-    console.log(swiper);
-  }
-  onSlideChange() {
-    console.log('slide change');
-  }
-
 }
 

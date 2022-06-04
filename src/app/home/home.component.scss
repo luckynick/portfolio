@@ -1,7 +1,6 @@
 
 @use '../../scss/mixins';
 @use '../../scss/images';
-@use '../../scss/slide';
 
 $card-bg-color: rgba(255, 255, 255, 0.19);
 
@@ -310,12 +309,6 @@ $card-bg-color: rgba(255, 255, 255, 0.19);
 
 .projects-banner {
 
-    @include slide.slide;
-
-    swiper::ng-deep {
-        .swiper-pagination-bullets.swiper-pagination-horizontal {
-            bottom: 10%;
-        }
-    }
+    
 }
 

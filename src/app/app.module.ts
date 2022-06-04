@@ -23,6 +23,7 @@ import { WebshopPageComponent } from './content/webshop-page/webshop-page.compon
 import { CusPortalPageComponent } from './content/cus-portal-page/cus-portal-page.component';
 import { DataViaSoundPageComponent } from './content/data-via-sound-page/data-via-sound-page.component';
 import { ScrollToFragmentDirective } from './util/scroll-to-fragment.directive';
+import { ProjectsGaleryComponent } from './projects-galery/projects-galery.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { ScrollToFragmentDirective } from './util/scroll-to-fragment.directive';
     CusPortalPageComponent,
     DataViaSoundPageComponent,
     ScrollToFragmentDirective,
+    ProjectsGaleryComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

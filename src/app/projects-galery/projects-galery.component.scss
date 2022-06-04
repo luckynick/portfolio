@@ -1,0 +1,11 @@
+
+@use '../../scss/slide';
+@use '../../scss/images';
+
+@include slide.slide;
+
+swiper::ng-deep {
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 10%;
+    }
+}
