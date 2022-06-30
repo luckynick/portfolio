@@ -19,7 +19,11 @@
         <span mat-line>Mykyta Moiseienko</span>
     </a>
 
-    <a mat-list-item (click)="openLink($event)">
+    <!--
+    <a mat-list-item routerLink="content/czestochowa" appScrollToFragment="top" 
+        (click)="openLink($event, true)">
+    -->
+    <a mat-list-item>
         <mat-icon mat-list-icon>place</mat-icon>
         <span mat-line i18n>Location</span>
         <span mat-line i18n>Czestochowa, Poland</span>

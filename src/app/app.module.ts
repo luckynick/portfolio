@@ -23,6 +23,7 @@ import { WebshopPageComponent } from './content/webshop-page/webshop-page.compon
 import { CusPortalPageComponent } from './content/cus-portal-page/cus-portal-page.component';
 import { DataViaSoundPageComponent } from './content/data-via-sound-page/data-via-sound-page.component';
 import { ScrollToFragmentDirective } from './util/scroll-to-fragment.directive';
+import { CzestochowaPageComponent } from './content/czestochowa-page/czestochowa-page.component';
 import { ProjectsGaleryComponent } from './projects-galery/projects-galery.component';
 
 
@@ -39,6 +40,7 @@ import { ProjectsGaleryComponent } from './projects-galery/projects-galery.compo
     CusPortalPageComponent,
     DataViaSoundPageComponent,
     ScrollToFragmentDirective,
+    CzestochowaPageComponent,
     ProjectsGaleryComponent,
   ],
   imports: [
