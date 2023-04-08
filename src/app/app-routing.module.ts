@@ -8,10 +8,22 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'content/webshop', component: WebshopPageComponent },
-  { path: 'content/cp', component: CusPortalPageComponent },
-  { path: 'content/dataviasound', component: DataViaSoundPageComponent },
-  { path: 'content/czestochowa', component: CzestochowaPageComponent },
+  { 
+    path: 'content/webshop', component: WebshopPageComponent, 
+    data: { description: $localize `Webshop for your business` } 
+  },
+  { 
+    path: 'content/cp', component: CusPortalPageComponent, 
+    data: { description: $localize `Creating software for your needs` } 
+  },
+  { 
+    path: 'content/dataviasound', component: DataViaSoundPageComponent, 
+    data: { description: $localize `Creating software for your needs` }  
+  },
+  { 
+    path: 'content/czestochowa', component: CzestochowaPageComponent, 
+    data: { description: $localize `IT solutions for business in Czestochowa` }  
+  },
 ];
 
 @NgModule({

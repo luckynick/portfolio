@@ -9,8 +9,9 @@
     <mat-icon>language</mat-icon>
 </button>
 <mat-menu #menu="matMenu">
-    <ng-container *ngTemplateOutlet="btnTemplate; context: { langCode: 'en', lang: 'English' }"></ng-container>
-    <ng-container *ngTemplateOutlet="btnTemplate; context: { langCode: 'pl', lang: 'Polski' }"></ng-container>
+    <ng-container *ngFor="let lang of langs">
+        <ng-container *ngTemplateOutlet="btnTemplate; context: lang"></ng-container>
+    </ng-container>
     <!--
     <button #btn mat-menu-item data-lang="en" (click)="onLangClick(btn)" 
         [disabled]="isLangDisabled(btn)">

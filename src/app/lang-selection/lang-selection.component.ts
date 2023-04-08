@@ -1,6 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { MatMenuItem } from '@angular/material/menu';
+import values from '../../values';
 
 @Component({
   selector: 'app-lang-selection',
@@ -8,6 +9,8 @@ import { MatMenuItem } from '@angular/material/menu';
   styleUrls: ['./lang-selection.component.scss']
 })
 export class LangSelectionComponent implements OnInit {
+
+  langs = values.LANGS;
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {
     
