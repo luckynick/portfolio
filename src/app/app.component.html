@@ -6,8 +6,8 @@ TODO1: SSR, SEO
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <div class="container" [style.height]="headerHeightPx + 'px'">
-    <img width="40" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
-    <span i18n>is Mykyta Moiseienko</span>
+    <img width="40" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" class="logo-clickable" (click)="scrollToTop()" />
+    <span class="d-none d-lg-inline" i18n>is Mykyta Moiseienko</span>
     <div class="spacer d-block d-md-none"></div>
     <app-nav-bar class="spacer d-none d-md-block"></app-nav-bar>
     <a mat-icon-button href="tel: +48 792 290 749" class="d-none d-md-block">
@@ -16,7 +16,20 @@ TODO1: SSR, SEO
     <!-- style="background-color: var(--background-color)" -->
     <app-contact-button i18n>Contact</app-contact-button>
     <app-lang-selection></app-lang-selection>
+    <button mat-icon-button class="hamburger-btn d-block d-md-none" (click)="toggleMobileMenu()" aria-label="Menu">
+      <mat-icon>{{ mobileMenuOpen ? 'close' : 'menu' }}</mat-icon>
+    </button>
   </div>
 </div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu d-md-none" [class.open]="mobileMenuOpen">
+  <nav class="mobile-nav">
+    <ng-container *ngFor="let navAnchor of (navService.anchors$ | async)">
+      <a *ngIf="navAnchor.getText(); let text" class="mobile-nav-item" (click)="onMobileNavClick(navAnchor)">{{text}}</a>
+    </ng-container>
+  </nav>
+</div>
+<div class="mobile-menu-overlay d-md-none" [class.open]="mobileMenuOpen" (click)="toggleMobileMenu()"></div>
 
 <router-outlet></router-outlet>

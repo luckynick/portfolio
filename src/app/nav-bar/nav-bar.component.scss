@@ -1,9 +1,31 @@
 
+:host {
+    overflow: hidden;
+    min-width: 0;
+}
+
+.nav-items {
+    overflow: hidden;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
 .nav-item {
     position: relative;
     cursor: pointer;
     border-bottom: 2px solid transparent;
     transition: border-color .3s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 40px;
+    flex-shrink: 1;
+    margin: 0 8px;
+
+    @media (min-width: 992px) {
+        margin: 0 16px;
+        min-width: 0;
+    }
 
     &::before {
         --dot-radius: 2.5px;

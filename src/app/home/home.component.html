@@ -1,25 +1,25 @@
 
 <div class="content" role="main">
+    <!-- Hero Section -->
     <div class="top-banner">
         <div class="focus-text-column holo" style="--gradient-shape: ellipse;">
             <div>
                 <div class="major-text display-6 mb-4 fw-normal">
-                    <span i18n>IT solutions </span>
-                    <span i18n class="text-accent">for your Business</span>.<br />
-                    <span i18n>Done professionally.</span>
+                    <span i18n>Staff Software Engineer</span><br />
+                    <span i18n class="text-accent">Building products at scale</span>
                 </div>
                 <div class="minor-text fw-light" i18n>
-                    Mykyta Moiseienko is a professional Software Engineer who will create a perfect programmatic solution for your business needs. 
+                    Full-stack engineer shipping high-impact features for 50+ enterprises.
+                    Expert in complex system integration, AI-powered solutions, and leading teams to deliver.
                 </div>
             </div>
         </div>
         <div class="focus-image-column" style="--gradient-position: 40%;">
             <div class="web-tech-img"></div>
-            <!-- <img class="mh-100 mw-100" src="./assets/web_tech/1.png" style="transform: scaleX(-1);" /> -->
         </div>
         <div class="focus-btn-column">
             <div class="icon-button-container" [ngClass]="{ 'animate': shouldAnimateMoveDownBtn }">
-                <button mat-icon-button class="icon-button arrow-down-button" color="primary" 
+                <button mat-icon-button class="icon-button arrow-down-button" color="primary"
                     aria-label="Move down" (click)="onMoveDownClick($event)">
                     <mat-icon>arrow_downward</mat-icon>
                 </button>
@@ -27,313 +27,319 @@
         </div>
     </div>
     <br>
-    <div id="moveDownScrollHere"></div>
-    <!-- h-md-fh -->
-    <div class="offer-banner content-banner container h-md-fh mb-5 mb-xxl-0">
-        <!-- What can be achieved  -->
-        <!-- New system. lightbulb auto_awesome 
-            - automation can save human hours and improve speed of processes in your company. savings euro_symbol payments
-            - more reliability of the processes because human factor is reduced. 
-            - Easy to use, accessible from all devices
-        -->
-        <!-- Integration with existing IT systems. integration_instructions insights -->
-        <!-- Replace more expensive or inconvenient systems. thumb_up -->
-        <div>
-            <div class="title-block mb-4 text-center">
-                <!-- Offer; How we can solve your needs -->
-                <span class="h2 d-inline" appNavAnchor="Offer" i18n>My Offer...</span> 
-            </div>
-            <div class="offer-items offer-items-grid mb-4">
-                <div class="offer-item major-left-item card">
-                    <div class="major-item-side w-40">
-                        <div class="holo w-100px">
-                            <mat-icon inline="true" class="">lightbulb</mat-icon>
-                        </div>
-                        <div i18n>Creating a new digital system</div>
-                    </div>
-                    <div class="major-item-side major-item-side-subitems w-60">
-                        <div class="offer-subitem">
-                            <div class="holo w-100px d-none">
-                                <mat-icon inline="true" class="">savings</mat-icon>
+    <div id="moveDownScrollHere">
+        <span class="visually-hidden" appNavAnchor="Box Apps"></span>
+    </div>
+
+    <!-- Box Apps Portal Section -->
+    <div class="box-portal-section">
+        <div class="box-portal-container">
+            <div class="box-grid-bg"></div>
+            <div class="box-content">
+                <div class="box-experience-label" i18n>Featured Experience</div>
+                <div class="box-header">
+                    <span class="box-apps-title" i18n>Box Apps</span>
+                </div>
+                <p class="box-subtitle" i18n>Staff Engineer building intelligent no-code apps at Box, Inc.</p>
+
+                <div class="box-contributions">
+                    <h3 class="box-section-title" i18n>Key Contributions</h3>
+
+                    <div class="box-cards-grid">
+                        <!-- AI Search Card -->
+                        <div class="box-card box-card-featured">
+                            <div class="box-card-icon">
+                                <mat-icon>search</mat-icon>
                             </div>
-                            <div class="text-start" i18n="@@7151043317980584312">Automation saves man hours and improves speed of processes in your company</div>
+                            <h4 i18n>App Level AI Search</h4>
+                            <p i18n>Architected and implemented natural language search on unstructured content. Flagship AI feature enabling document intelligence.</p>
+                            <div class="box-card-tags">
+                                <span class="box-tag box-tag-ai" i18n>AI</span>
+                                <span class="box-tag" i18n>Architecture</span>
+                            </div>
                         </div>
-                        <div class="offer-subitem">
-                            <div class="text-start" i18n>More reliable processes because human factor is reduced</div>
+
+                        <!-- MVP Delivery Card -->
+                        <div class="box-card">
+                            <div class="box-card-icon">
+                                <mat-icon>rocket_launch</mat-icon>
+                            </div>
+                            <h4 i18n>Box Apps MVP</h4>
+                            <p i18n>Frontend Tech Lead for Box Apps MVP delivery. Led engineering team through successful Enterprise Advanced tier launch.</p>
+                            <div class="box-card-tags">
+                                <span class="box-tag" i18n>Leadership</span>
+                                <span class="box-tag" i18n>React+Meteor</span>
+                            </div>
                         </div>
-                        <div class="offer-subitem">
-                            <div class="text-start" i18n>Easy to use solution, accessible from all devices</div>
+
+                        <!-- Federated Modules Card -->
+                        <div class="box-card">
+                            <div class="box-card-icon">
+                                <mat-icon>hub</mat-icon>
+                            </div>
+                            <h4 i18n>Complex Integration</h4>
+                            <p i18n>Solved Federated Modules incompatibility in Meteor.js to unblock AI Q&A and Box Forms integrations. Critical blocker resolution.</p>
+                            <div class="box-card-tags">
+                                <span class="box-tag" i18n>Federated Modules</span>
+                                <span class="box-tag" i18n>Problem Solving</span>
+                            </div>
+                        </div>
+
+                        <!-- Metadata Extraction Card -->
+                        <div class="box-card">
+                            <div class="box-card-icon">
+                                <mat-icon>auto_awesome</mat-icon>
+                            </div>
+                            <h4 i18n>AI Metadata Extraction</h4>
+                            <p i18n>Integrated AI-driven metadata extraction for document intelligence. Cross-team collaboration delivering customer value.</p>
+                            <div class="box-card-tags">
+                                <span class="box-tag box-tag-ai" i18n>AI</span>
+                                <span class="box-tag" i18n>Cross-team</span>
+                            </div>
+                        </div>
+
+                        <!-- Dashboard Experience MVP Card -->
+                        <div class="box-card">
+                            <div class="box-card-icon">
+                                <mat-icon>dashboard</mat-icon>
+                            </div>
+                            <h4 i18n>Dashboard Experience MVP</h4>
+                            <p i18n>Built initial critical MVP for the App (Dashboard) entity experience. Defined user interaction patterns and established foundational frontend architecture.</p>
+                            <div class="box-card-tags">
+                                <span class="box-tag" i18n>MVP</span>
+                                <span class="box-tag" i18n>Architecture</span>
+                            </div>
+                        </div>
+
+                        <!-- Permission Model Card -->
+                        <div class="box-card">
+                            <div class="box-card-icon">
+                                <mat-icon>security</mat-icon>
+                            </div>
+                            <h4 i18n>Permission Model</h4>
+                            <p i18n>Designed and implemented core frontend scope for New Apps Permission Model initiative. Enterprise-grade access control.</p>
+                            <div class="box-card-tags">
+                                <span class="box-tag" i18n>Security</span>
+                                <span class="box-tag" i18n>Architecture</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="offer-item card">
-                    <div class="holo w-100px">
-                        <mat-icon inline="true" class="">thumb_up</mat-icon>
-                    </div>  
-                    <div i18n>Replacing an expensive or inconvenient systems</div>
-                </div>
-                <div class="offer-item card">
-                    <div class="holo w-100px">
-                        <mat-icon inline="true" class="">insights</mat-icon>
-                    </div>  
-                    <div i18n>Integrating with existing IT systems</div>
-                </div>
-                <div class="offer-item card">
-                    <div class="holo w-100px">
-                        <mat-icon inline="true" class="">more_horiz</mat-icon>
-                    </div>  
-                    <div i18n>And more</div>
-                </div>
-            </div>
-        </div>
-        <!-- Roadmap of a solution. Icons: double_arrow arrow_forward_ios arrow_forward -->
-        <!-- First contact: pan_tool people waving_hand front_hand alternate_email -->
-        <!-- Understanding requirements: tips_and_updates assignment -->
-        <!-- Agreement: handshake -->
-        <!-- Implementation: settings(spinning) auto_fix_high settings_suggest -->
-        <!-- Done: thumb_up thumb_up_off_alt verified task_alt rocket_launch -->
-        <div class="d-flex align-items-center flex-basis-100 flex-column justify-content-center">
-            <div class="title-block mb-4 d-flex 
-                align-items-center justify-content-center">
-                <span class="h5 d-inline" i18n>... and how we can proceed</span> 
-            </div>
-            <div class="offer-items offer-items-flex roadmap-items 
-                        flex-md-row flex-column">
-                <div class="offer-item">
-                    <div class="holo w-100px">
-                        <mat-icon inline="true" class="">waving_hand</mat-icon>
+
+                    <div class="box-stats">
+                        <div class="box-stat">
+                            <span class="box-stat-number" i18n>E2E</span>
+                            <span class="box-stat-label" i18n>Ownership</span>
+                        </div>
+                        <div class="box-stat">
+                            <span class="box-stat-number" i18n>MVP</span>
+                            <span class="box-stat-label" i18n>to Launch</span>
+                        </div>
+                        <div class="box-stat">
+                            <span class="box-stat-number" i18n>Enterprise</span>
+                            <span class="box-stat-label" i18n>Tier</span>
+                        </div>
                     </div>
-                    <div>
-                        <app-contact-button i18n>First contact</app-contact-button>
-                    </div>
-                </div>
-                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-                <div class="offer-item">
-                    <div class="w-100px">
-                        <mat-icon inline="true" class="">assignment</mat-icon>
-                    </div>  
-                    <div i18n>Understanding your needs</div>
-                </div>
-                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-                <div class="offer-item">
-                    <div class="w-100px">
-                        <mat-icon inline="true" class="">handshake</mat-icon>
-                    </div>  
-                    <div i18n>Agreement</div>
-                </div>
-                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-                <div class="offer-item">
-                    <div class="w-100px">
-                        <mat-icon inline="true" class="rotation-animation">settings</mat-icon>
-                    </div>  
-                    <div i18n>Implementation</div>
-                </div>
-                <mat-icon inline="true" color="primary" class="mobile-vertical">double_arrow</mat-icon>
-                <div class="offer-item">
-                    <div class="holo w-100px">
-                        <mat-icon inline="true" class="">thumb_up</mat-icon>
-                    </div>  
-                    <div i18n>Done</div>
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- About me, including my experience and how it will convert to the advantages for the client
-        - technology generalism 
-        - specialization in Web gives a lot of possibilities
-        - responsibility and satisfactory result for all stakeholders
-        - solutions "під ключ"
-        - presentation of my past projects
-        - Supporting local businesses in Czestochowa. Readiness to work on international projects, experience with projects from EU, US, Asia and Africa. 
-        h-md-fh mb-5 mb-md-0
-    -->
+
+    <!-- Enterprise Experience Section -->
+    <div class="enterprise-section content-banner container">
+        <div class="title-block mb-4 text-center">
+            <span class="h2 d-inline" appNavAnchor i18n>Enterprise Experience</span>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Shuttle/Data Migration -->
+            <div class="project-card">
+                <div class="project-image shuttle-img"></div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 i18n>Data Migration Platform</h3>
+                        <span class="project-company" i18n>Box - Shuttle Team</span>
+                    </div>
+                    <p i18n>Modernized acquired product via Ember.js to React migration. Implemented comprehensive E2E testing with Playwright/WDIO.</p>
+                    <div class="project-tags">
+                        <span i18n>React</span>
+                        <span i18n>Migration</span>
+                        <span i18n>E2E Testing</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qurate Retail -->
+            <div class="project-card">
+                <div class="project-image qurate-img"></div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 i18n>E-Commerce Platform</h3>
+                        <span class="project-company" i18n>Qurate Retail Group</span>
+                    </div>
+                    <p i18n>Built high-traffic e-commerce features on AEM platform. Product catalogs and checkout flows serving retail customers at scale.</p>
+                    <div class="project-tags">
+                        <span i18n>AEM</span>
+                        <span i18n>E-Commerce</span>
+                        <span i18n>High-Traffic</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Insys -->
+            <div class="project-card">
+                <div class="project-image insys-img"></div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 i18n>Full-Stack Applications</h3>
+                        <span class="project-company" i18n>Insys Interactive Systems</span>
+                    </div>
+                    <p i18n>Built invoices management, ticketing system, shared components library, and automotive process portal. End-to-end ownership.</p>
+                    <div class="project-tags">
+                        <span i18n>Full-Stack</span>
+                        <span i18n>Java EE</span>
+                        <span i18n>Component Library</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Personal Projects Section -->
+    <div class="personal-section content-banner container">
+        <div class="title-block mb-4 text-center">
+            <span class="h2 d-inline" i18n>Personal Projects</span>
+        </div>
+
+        <div class="personal-grid">
+            <div class="personal-card gamefi-card">
+                <div class="personal-card-glow"></div>
+                <div class="personal-card-content">
+                    <mat-icon class="personal-icon">sports_esports</mat-icon>
+                    <h3 i18n>GameFi Projects</h3>
+                    <p i18n>Full-stack casual EVM-based PvP games. Smart contracts with Solidity, backend with Node.js, frontend with React/Next.js.</p>
+                    <div class="tech-stack">
+                        <span i18n>Solidity</span>
+                        <span i18n>Node.js</span>
+                        <span i18n>React/Next.js</span>
+                        <span i18n>Web3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="personal-card ai-card">
+                <div class="personal-card-glow"></div>
+                <div class="personal-card-content">
+                    <mat-icon class="personal-icon">smart_toy</mat-icon>
+                    <h3 i18n>AI Agentic Tools</h3>
+                    <p i18n>Adopted AI agentic coding tools (Cursor, Claude) for agent-assisted development workflows. Exploring applied AI in software engineering.</p>
+                    <div class="tech-stack">
+                        <span i18n>LLM Agents</span>
+                        <span i18n>Cursor</span>
+                        <span i18n>Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
     <div class="about-banner content-banner container mb-5">
         <div class="title-block mb-4 text-center">
             <span class="h2 d-inline" appNavAnchor="About" i18n>About Mykyta</span>
-            <!--
-            <img class="logo-img" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
-            -->
         </div>
         <div class="row">
-            <div class="focus-text-column col-12 col-md-7 d-flex 
+            <div class="focus-text-column col-12 col-md-7 d-flex
                 align-items-center justify-content-center">
-                <!-- indicate my specializations and capabilities (Web and programming generalist; Frontend, Backend, Databases, Server setup, Accompanying services, Maintenance of a product...) -->
                 <div class="focus-text h2">
                     <img class="logo-img" alt="Mykyta Moiseienko Logo" src="./assets/logo.png" />
-                    <span i18n> is </span>
-                    <!-- TODO: fix vertical shift of some items -->
+                    <span i18n> delivers </span>
                     <div class="spinner d-inline-flex flex-column">
-                        <span i18n>responsibility</span>
-                        <span i18n>affordable services</span>
-                        <span i18n>quality results</span>
-                        <span i18n>a good solution</span>
+                        <span i18n>complex integrations</span>
+                        <span i18n>AI-powered features</span>
+                        <span i18n>quality at scale</span>
+                        <span i18n>product decisions</span>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-5 assets-enumeration">
                 <p class="h6">
-                    Mykyta Moiseienko is a <span class="text-accent" i18n>professional Software Engineer.</span>
+                    <span class="text-accent" i18n>Staff Software Engineer</span>
+                    <span i18n> at Box, Inc.</span>
                 </p>
                 <p class="h6">
-                    <mat-icon color="primary">done</mat-icon> 
-                    <span i18n>{{expYears}} {expYears, plural, =1 {year} other {years}} in the industry</span>
+                    <mat-icon color="primary">done</mat-icon>
+                    <span i18n>{{expYears}} {expYears, plural, =1 {year} other {years}} shipping enterprise software</span>
                 </p>
                 <p class="h6">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Several projects from US, EU, Asia and Africa</span>
-                </p>
-                <p class="h6" i18n-matTooltip="@@5916894819632714672" 
-                matTooltip="Czestochowa University of Technology">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Qualification is proven by a corresponding degree in one of the esteemed universities in Poland</span>
+                    <mat-icon color="primary">done</mat-icon>
+                    <span i18n>Led engineering teams to deliver critical features</span>
                 </p>
                 <p class="h6">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Specialist in Web development, competent in fields of Frontend, Backend, Databases and Servers</span>
+                    <mat-icon color="primary">done</mat-icon>
+                    <span i18n>Expert in React, TypeScript, Meteor, Node.js</span>
                 </p>
                 <p class="h6">
-                    <mat-icon color="primary">done</mat-icon> <span i18n>Programming generalist who is not limited by just one field of Software Development</span>
+                    <mat-icon color="primary">done</mat-icon>
+                    <span i18n>Complex system integration specialist</span>
+                </p>
+                <p class="h6">
+                    <mat-icon color="primary">done</mat-icon>
+                    <span i18n>Applied AI: Search, Metadata Extraction, LLM Agents</span>
                 </p>
             </div>
         </div>
     </div>
-    <div class="projects-banner container h-fh
-        d-flex flex-column">
-        <div class="title-block mb-4 text-center" style="flex: 0;">
-            <span class="h2 d-inline" appNavAnchor i18n>Projects</span>
+
+    <!-- Core Competencies -->
+    <div class="competencies-section content-banner container mb-5">
+        <div class="title-block mb-4 text-center">
+            <span class="h2 d-inline" i18n>Core Competencies</span>
         </div>
-        <div class="row" style="flex: 1;">
-            <swiper
-                [spaceBetween]="50"
-                [pagination]="{ clickable: true, dynamicBullets: true }"
-                [mousewheel]="{ forceToAxis: true }"
-                (swiper)="onSwiper($event)"
-                (slideChange)="onSlideChange()"
-                [navigation]="true"
-                >
-                <ng-template swiperSlide>
-                    <div class="slide container-fluid row">
-                        <div class="col-12 col-md-7 col-xxl-8">
-                            <div class="bg-img ws-mock-img"></div>
-                        </div>
-                        <div class="col-12 col-md-5 col-xxl-4 slide-description">
-                            <p class="h4 mb-5 text-center" i18n>Webshop</p>
-                            <p i18n>
-                                This Web project is for the companies from the fashion industry who 
-                                aspire to sell their products to retail customers in the internet. 
-                            </p>
-                            <p i18n="@@2503237102175404117">
-                                Orientation to the retail sector raises specific requirements and challenges. 
-                                Ability to easily cope with new technologies is Mykyta's strong asset which was 
-                                in help when solving the challenges of the project.
-                            </p>
-                            <div class="assets-enumeration">
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
-                                    <span i18n>Retail customers</span>
-                                </span>
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
-                                    <span i18n>Website performance improvements</span>
-                                </span>
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
-                                    <span i18n>Search Engine Optimization solutions</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="slide container-fluid row">
-                        <div class="col-12 col-md-7 col-xxl-8">
-                            <div class="bg-img sa-mock-img"></div>
-                        </div>
-                        <div class="col-12 col-md-5 col-xxl-4 slide-description">
-                            <p class="h4 mb-5 text-center" i18n>Customer Portal</p>
-                            <p i18n>
-                                The Customer Portal Web application project provides 
-                                a handy way for internal customers to perform wholesale orders 
-                                and keep track of the corresponding documentation. 
-                            </p>
-                            <p i18n>
-                                Rich set of features and configuration flexibility are the advantages 
-                                of the project. 
-                            </p>
-                            <div class="assets-enumeration">
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
-                                    <span i18n>B2B customers</span>
-                                </span>
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
-                                    <span i18n>Server programming (backend)</span>
-                                </span>
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
-                                    <span i18n>Java EE</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </ng-template>
-                <!-- #5a59e5 rgb(90, 89, 229), #599fe5 -->
-                <ng-template swiperSlide>
-                    <div class="slide container-fluid row">
-                        <div class="col-12 col-md-7 col-xxl-8">
-                            <div class="bg-img dvs-mock-img"></div>
-                        </div>
-                        <div class="col-12 col-md-5 col-xxl-4 slide-description">
-                            <p class="h4 text-center" i18n>App for data-via-sound transportation</p>
-                            <p class="mb-5 text-center" i18n>(diploma work)</p>
-                            <p i18n>
-                                This Android application is for transmitting data between 
-                                devices using sound waves. 
-                            </p>
-                            <p i18n>
-                                Despite Android platform was new for Mykyta, it was a good choice to proof the concept. 
-                                Besides the app, an advanced testing program was created. 
-                                It was used for the research in order to find 
-                                the optimal sound parameters for the best transmission quality. 
-                            </p>
-                            <div class="assets-enumeration">
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon>
-                                    <span i18n>New technologies</span>
-                                </span>
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
-                                    <span i18n>Sound research</span>
-                                </span>
-                                <span>
-                                    <mat-icon class="check-icon" color="primary">done</mat-icon> 
-                                    <span i18n>Android</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template swiperSlide>
-                    <div class="slide container-fluid row">
-                        <div class="col-12 slide-description">
-                            <p class="h4 mb-4 text-center" i18n>Ask me about my 
-                                <span class="text-accent">other projects</span>
-                            </p>
-                            <p class="text-center fw-bold" i18n>
-                                Process controll app for a company from the automotive industry. 
-                                Online broadcast and retail platform. 
-                                <br>
-                                Styles prototyping Web application. 
-                                HelpDesk. 
-                                Standalone Java programs. 
-                            </p>
-                            <p class="text-center mb-4" i18n>
-                                Many of the projects I was working on are not public. 
-                                Therefore I can not show or share the details. <br>
-                                On the other hand, I'd be glad to talk with you in person and outline the key aspects of my past works.
-                            </p>
-                            <app-contact-button class="mx-auto" i18n>Contact me</app-contact-button>
-                        </div>
-                    </div>
-                </ng-template>
-            </swiper>
+        <div class="competencies-grid">
+            <div class="competency-item">
+                <mat-icon>integration_instructions</mat-icon>
+                <h4 i18n>Complex System Integration</h4>
+                <p i18n>Meteor+React, Federated Modules, Large-scale APIs, Cross-platform Architecture</p>
+            </div>
+            <div class="competency-item">
+                <mat-icon>verified</mat-icon>
+                <h4 i18n>Quality Engineering</h4>
+                <p i18n>E2E Testing, Playwright, VRT, Incidents Prevention and Mitigation</p>
+            </div>
+            <div class="competency-item">
+                <mat-icon>lightbulb</mat-icon>
+                <h4 i18n>Product Engineering</h4>
+                <p i18n>Product Decisions, Technical Specs, Stakeholder Management, End-to-End Ownership</p>
+            </div>
+            <div class="competency-item">
+                <mat-icon>code</mat-icon>
+                <h4 i18n>Full-Stack Development</h4>
+                <p i18n>React, TypeScript, Node.js, Large-scale Systems, Framework-agnostic</p>
+            </div>
+            <div class="competency-item">
+                <mat-icon>psychology</mat-icon>
+                <h4 i18n>Applied AI & Automation</h4>
+                <p i18n>LLM Agents, AI Coding Tools, Metadata Extraction, Search AI, Workflow Automation</p>
+            </div>
+            <div class="competency-item">
+                <mat-icon>translate</mat-icon>
+                <h4 i18n>Languages</h4>
+                <p i18n>English C2, Polish C2, Ukrainian (native)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section content-banner container mb-5">
+        <div class="title-block mb-4 text-center">
+            <span class="h2 d-inline" i18n>Get in Touch</span>
+        </div>
+        <div class="contact-content text-center">
+            <p class="contact-text" i18n>
+                Have questions about my work or projects?
+            </p>
+            <app-contact-button class="mx-auto" i18n>Contact me</app-contact-button>
         </div>
     </div>
 </div>

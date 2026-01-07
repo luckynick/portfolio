@@ -113,8 +113,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 //   @include calc(rfs($h2-font-size, width) + 1rem);
 // }
 
+// Ensure minimal page padding on smallest screens
+@media (max-width: 575px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
 @media (min-width: 768px) {
-  
+
   .h-md-100vh {
     height: 100vh !important;
   }
@@ -122,5 +130,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .h-md-fh {
     height: calc(100vh - var(--top-banner-top-margin));
   }
-  
+
 }

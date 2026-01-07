@@ -27,7 +27,7 @@ p {
 
 .toolbar {
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     top: 0;
     left: 0;
     right: 0;
@@ -48,6 +48,10 @@ p {
     img {
         margin: 0 16px;
     }
+
+    .logo-clickable {
+        cursor: pointer;
+    }
 }
 
 .toolbar #twitter-logo {
@@ -63,4 +67,66 @@ p {
 .toolbar #twitter-logo:hover,
 .toolbar #youtube-logo:hover {
     opacity: 0.8;
+}
+
+// Hamburger button
+.hamburger-btn {
+    color: var(--on-background-text-color);
+    margin-left: 8px;
+}
+
+// Mobile menu
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -280px;
+    width: 280px;
+    height: 100vh;
+    background-color: var(--background-color);
+    z-index: 999;
+    transition: right 0.3s ease;
+    padding-top: 80px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+
+    &.open {
+        right: 0;
+    }
+}
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+}
+
+.mobile-nav-item {
+    padding: 16px 24px;
+    color: var(--on-background-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+.mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+
+    &.open {
+        opacity: 1;
+        visibility: visible;
+    }
 }

@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="8974106421037937638" datatype="html">
         <source>is Mykyta Moiseienko</source>
-        <target>to Mykyta Moiseienko</target>
+        <target>це Микита Мойсеєнко</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">10</context>
@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
-        <target>Kontakt</target>
+        <target>Контакт</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">17</context>
@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="8121141462865337916" datatype="html">
         <source>Phone number</source>
-        <target>Numer telefonu</target>
+        <target>Номер телефону</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-bottom-sheet/contact-bottom-sheet-component.html</context>
           <context context-type="linenumber">11</context>
@@ -36,7 +36,7 @@
       </trans-unit>
       <trans-unit id="471816275243265264" datatype="html">
         <source>Location</source>
-        <target>Lokalizacja</target>
+        <target>Місцезнаходження</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-bottom-sheet/contact-bottom-sheet-component.html</context>
           <context context-type="linenumber">24</context>
@@ -44,7 +44,7 @@
       </trans-unit>
       <trans-unit id="6925767301751212629" datatype="html">
         <source>Wroclaw, Poland</source>
-        <target>Wroclaw, Polska</target>
+        <target>Вроцлав, Польща</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-bottom-sheet/contact-bottom-sheet-component.html</context>
           <context context-type="linenumber">25</context>
@@ -60,7 +60,7 @@
       </trans-unit>
       <trans-unit id="4759521561766007324" datatype="html">
         <source>Building products at scale</source>
-        <target>Tworzenie produktow na duzej skali</target>
+        <target>Створення продуктів у масштабі</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">9</context>
@@ -68,7 +68,7 @@
       </trans-unit>
       <trans-unit id="3605627696638033342" datatype="html">
         <source> Full-stack engineer shipping high-impact features for 50+ enterprises. Expert in complex system integration, AI-powered solutions, and leading teams to deliver. </source>
-        <target> Full-stack inzynier dostarczajacy funkcje o duzym wplywie dla 50+ przedsiebiorstw. Ekspert w integracji zlozonych systemow, rozwiazaniach AI i prowadzeniu zespolow. </target>
+        <target> Full-stack інженер, що доставляє функції з високим впливом для 50+ підприємств. Експерт з інтеграції складних систем, рішень на базі AI та керівництва командами. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">11,14</context>
@@ -76,7 +76,7 @@
       </trans-unit>
       <trans-unit id="7686041049552707806" datatype="html">
         <source>Featured Experience</source>
-        <target>Wyrozniajace Doswiadczenie</target>
+        <target>Ключовий досвід</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">37</context>
@@ -92,7 +92,7 @@
       </trans-unit>
       <trans-unit id="1367942931143060933" datatype="html">
         <source>Staff Engineer building intelligent no-code apps at Box, Inc.</source>
-        <target>Staff Engineer tworzacy inteligentne aplikacje no-code w Box, Inc.</target>
+        <target>Staff Engineer, що створює інтелектуальні no-code додатки в Box, Inc.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">41</context>
@@ -100,7 +100,7 @@
       </trans-unit>
       <trans-unit id="7921580188163050389" datatype="html">
         <source>Key Contributions</source>
-        <target>Kluczowe Wklady</target>
+        <target>Ключові внески</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">44</context>
@@ -108,7 +108,7 @@
       </trans-unit>
       <trans-unit id="6404451429321962984" datatype="html">
         <source>App Level AI Search</source>
-        <target>Wyszukiwanie AI na Poziomie Aplikacji</target>
+        <target>AI пошук на рівні додатку</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">52</context>
@@ -116,7 +116,7 @@
       </trans-unit>
       <trans-unit id="8457515180927950022" datatype="html">
         <source>Architected and implemented natural language search on unstructured content. Flagship AI feature enabling document intelligence.</source>
-        <target>Zaprojektowałem i zaimplementowałem wyszukiwanie w języku naturalnym na niestrukturalnych danych. Flagowa funkcja AI umożliwiająca inteligentną analizę dokumentów.</target>
+        <target>Спроектував та реалізував пошук природною мовою по неструктурованому контенту. Флагманська AI-функція для інтелектуального аналізу документів.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">53</context>
@@ -132,7 +132,7 @@
       </trans-unit>
       <trans-unit id="4764104020334215003" datatype="html">
         <source>Architecture</source>
-        <target>Architektura</target>
+        <target>Архітектура</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">56</context>
@@ -148,7 +148,7 @@
       </trans-unit>
       <trans-unit id="8748331470792810574" datatype="html">
         <source>Frontend Tech Lead for Box Apps MVP delivery. Led engineering team through successful Enterprise Advanced tier launch.</source>
-        <target>Frontend Tech Lead dostarczający Box Apps MVP. Prowadziłem zespół inżynierów przez pomyślne uruchomienie Enterprise Advanced.</target>
+        <target>Frontend Tech Lead для доставки Box Apps MVP. Керував командою інженерів через успішний запуск Enterprise Advanced.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">66</context>
@@ -156,7 +156,7 @@
       </trans-unit>
       <trans-unit id="607928500250304187" datatype="html">
         <source>Leadership</source>
-        <target>Liderstwo</target>
+        <target>Лідерство</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">68</context>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="1904795489806919223" datatype="html">
         <source>Complex Integration</source>
-        <target>Zlozona Integracja</target>
+        <target>Складна інтеграція</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">78</context>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="2785900293993811236" datatype="html">
         <source>Solved Federated Modules incompatibility in Meteor.js to unblock AI Q&amp;A and Box Forms integrations. Critical blocker resolution.</source>
-        <target>Rozwiazalem niekompatybilnosc Federated Modules w Meteor.js, odblokowujac integracje AI Q&amp;A i Box Forms. Krytyczne rozwiazanie blokera.</target>
+        <target>Вирішив несумісність Federated Modules в Meteor.js для розблокування інтеграцій AI Q&amp;A та Box Forms. Критичне вирішення блокера.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">79</context>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="334482128251128442" datatype="html">
         <source>Problem Solving</source>
-        <target>Rozwiazywanie Problemow</target>
+        <target>Вирішення проблем</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">82</context>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="7153388805044022902" datatype="html">
         <source>AI Metadata Extraction</source>
-        <target>Ekstrakcja Metadanych AI</target>
+        <target>AI екстракція метаданих</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">91</context>
@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="7552774476659103613" datatype="html">
         <source>Integrated AI-driven metadata extraction for document intelligence. Cross-team collaboration delivering customer value.</source>
-        <target>Zintegrowalem ekstrakcje metadanych sterowana przez AI dla inteligencji dokumentow. Wspolpraca miedzy zespolami dostarczajaca wartosc klientom.</target>
+        <target>Інтегрував AI-керовану екстракцію метаданих для інтелекту документів. Міжкомандна співпраця, що доставляє цінність клієнтам.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">92</context>
@@ -220,7 +220,7 @@
       </trans-unit>
       <trans-unit id="6549522089509979216" datatype="html">
         <source>Cross-team</source>
-        <target>Miedzy-zespolowo</target>
+        <target>Міжкомандно</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">95</context>
@@ -228,7 +228,7 @@
       </trans-unit>
       <trans-unit id="2290715930367259505" datatype="html">
         <source>Dashboard Experience MVP</source>
-        <target>MVP Doświadczenia Dashboard</target>
+        <target>MVP досвіду Dashboard</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">104</context>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="2454269993338174712" datatype="html">
         <source>Built initial critical MVP for the App (Dashboard) entity experience. Defined user interaction patterns and established foundational frontend architecture.</source>
-        <target>Zbudowałem początkowy krytyczny MVP dla doświadczenia encji App (Dashboard). Zdefiniowałem wzorce interakcji użytkownika i ustanowiłem fundamentalną architekturę frontend.</target>
+        <target>Створив початковий критичний MVP для досвіду сутності App (Dashboard). Визначив патерни взаємодії користувача та встановив фундаментальну архітектуру фронтенду.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">105</context>
@@ -252,7 +252,7 @@
       </trans-unit>
       <trans-unit id="8386553433998246889" datatype="html">
         <source>Permission Model</source>
-        <target>Model Uprawnien</target>
+        <target>Модель дозволів</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">117</context>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="2376540528298298984" datatype="html">
         <source>Designed and implemented core frontend scope for New Apps Permission Model initiative. Enterprise-grade access control.</source>
-        <target>Zaprojectowalem i zaimplementowalem kluczowy zakres frontendu dla inicjatywy New Apps Permission Model. Kontrola dostepu klasy Enterprise.</target>
+        <target>Спроектував та реалізував ключовий обсяг фронтенду для ініціативи New Apps Permission Model. Контроль доступу корпоративного класу.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">118</context>
@@ -268,7 +268,7 @@
       </trans-unit>
       <trans-unit id="8878700331247603166" datatype="html">
         <source>Security</source>
-        <target>Bezpieczenstwo</target>
+        <target>Безпека</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">120</context>
@@ -284,7 +284,7 @@
       </trans-unit>
       <trans-unit id="ownership-stat" datatype="html">
         <source>Ownership</source>
-        <target>Odpowiedzialność</target>
+        <target>Відповідальність</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">131</context>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="to-launch-stat" datatype="html">
         <source>to Launch</source>
-        <target>do Uruchomienia</target>
+        <target>до Запуску</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">135</context>
@@ -316,7 +316,7 @@
       </trans-unit>
       <trans-unit id="tier-stat" datatype="html">
         <source>Tier</source>
-        <target>Poziom</target>
+        <target>Рівень</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">139</context>
@@ -324,7 +324,7 @@
       </trans-unit>
       <trans-unit id="71765085145103076" datatype="html">
         <source>Enterprise Experience</source>
-        <target>Doświadczenie</target>
+        <target>Досвід</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">148</context>
@@ -332,7 +332,7 @@
       </trans-unit>
       <trans-unit id="4834788285178953504" datatype="html">
         <source>E-Commerce Platform</source>
-        <target>Platforma E-Commerce</target>
+        <target>E-Commerce платформа</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">157</context>
@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="3860750155791828240" datatype="html">
         <source>Built high-traffic e-commerce features on AEM platform. Product catalogs and checkout flows serving retail customers at scale.</source>
-        <target>Zbudowalem funkcje e-commerce o duzym ruchu na platformie AEM. Katalogi produktow i procesy zakupowe obslugujace klientow detalicznych na skale.</target>
+        <target>Створив функції e-commerce з високим трафіком на платформі AEM. Каталоги продуктів та процеси оформлення замовлень для роздрібних клієнтів у масштабі.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">160</context>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="5624028915389844260" datatype="html">
         <source>High-Traffic</source>
-        <target>Duzy Ruch</target>
+        <target>Високий трафік</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">164</context>
@@ -380,7 +380,7 @@
       </trans-unit>
       <trans-unit id="6377246429418390385" datatype="html">
         <source>Full-Stack Applications</source>
-        <target>Aplikacje Full-Stack</target>
+        <target>Full-Stack додатки</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">174</context>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="840686416186535029" datatype="html">
         <source>Built invoices management, ticketing system, shared components library, and automotive process portal. End-to-end ownership.</source>
-        <target>Zbudowalem zarzadzanie fakturami, system ticketowy, biblioteke wspoldzielonych komponentow i portal procesow automotive. Pelna odpowiedzialnosc end-to-end.</target>
+        <target>Створив управління рахунками, систему тікетів, бібліотеку спільних компонентів та портал автомобільних процесів. Повна відповідальність end-to-end.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">177</context>
@@ -420,7 +420,7 @@
       </trans-unit>
       <trans-unit id="6320346619897984959" datatype="html">
         <source>Component Library</source>
-        <target>Biblioteka Komponentow</target>
+        <target>Бібліотека компонентів</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">181</context>
@@ -428,7 +428,7 @@
       </trans-unit>
       <trans-unit id="522535327233114829" datatype="html">
         <source>Data Migration Platform</source>
-        <target>Platforma Migracji Danych</target>
+        <target>Платформа міграції даних</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">191</context>
@@ -436,7 +436,7 @@
       </trans-unit>
       <trans-unit id="5670171490127825785" datatype="html">
         <source>Box - Shuttle Team</source>
-        <target>Box - Zespol Shuttle</target>
+        <target>Box - команда Shuttle</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">192</context>
@@ -444,7 +444,7 @@
       </trans-unit>
       <trans-unit id="6999008280756151117" datatype="html">
         <source>Modernized acquired product via Ember.js to React migration. Implemented comprehensive E2E testing with Playwright/WDIO.</source>
-        <target>Zmodernizowalen przejety produkt poprzez migracje z Ember.js do React. Zaimplementowalem kompleksowe testy E2E z Playwright/WDIO.</target>
+        <target>Модернізував придбаний продукт через міграцію з Ember.js на React. Реалізував комплексне E2E тестування з Playwright/WDIO.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">194</context>
@@ -460,7 +460,7 @@
       </trans-unit>
       <trans-unit id="1317814792060529621" datatype="html">
         <source>Migration</source>
-        <target>Migracja</target>
+        <target>Міграція</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">197</context>
@@ -468,7 +468,7 @@
       </trans-unit>
       <trans-unit id="3764621523209347708" datatype="html">
         <source>E2E Testing</source>
-        <target>Testy E2E</target>
+        <target>E2E тестування</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">198</context>
@@ -476,7 +476,7 @@
       </trans-unit>
       <trans-unit id="6884723528309635480" datatype="html">
         <source>Personal Projects</source>
-        <target>Projekty</target>
+        <target>Проекти</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">208</context>
@@ -484,7 +484,7 @@
       </trans-unit>
       <trans-unit id="8972262660978223603" datatype="html">
         <source>GameFi Projects</source>
-        <target>Projekty GameFi</target>
+        <target>GameFi проекти</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">216</context>
@@ -492,7 +492,7 @@
       </trans-unit>
       <trans-unit id="6316541731247748188" datatype="html">
         <source>Full-stack casual EVM-based PvP games. Smart contracts with Solidity, backend with Node.js, frontend with React/Next.js.</source>
-        <target>Full-stack casualowe gry PvP oparte na EVM. Smart kontrakty w Solidity, backend w Node.js, frontend w React/Next.js.</target>
+        <target>Full-stack казуальні PvP ігри на базі EVM. Смарт-контракти на Solidity, бекенд на Node.js, фронтенд на React/Next.js.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">217</context>
@@ -532,7 +532,7 @@
       </trans-unit>
       <trans-unit id="2369123791132614075" datatype="html">
         <source>AI Agentic Tools</source>
-        <target>Narzedzia AI Agentowe</target>
+        <target>AI агентні інструменти</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">231</context>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="4346247033777885324" datatype="html">
         <source>Adopted AI agentic coding tools (Cursor, Claude) for agent-assisted development workflows. Exploring applied AI in software engineering.</source>
-        <target>Zastosowalem narzedzia do kodowania AI (Cursor, Claude) dla workflowow wspomaganych przez agentow. Eksploruję zastosowania AI w inzynierii oprogramowania.</target>
+        <target>Застосував AI агентні інструменти кодування (Cursor, Claude) для робочих процесів з підтримкою агентів. Досліджую застосування AI в інженерії програмного забезпечення.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">232</context>
@@ -548,7 +548,7 @@
       </trans-unit>
       <trans-unit id="6061093790501122385" datatype="html">
         <source>LLM Agents</source>
-        <target>Agenci LLM</target>
+        <target>LLM агенти</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">234</context>
@@ -564,7 +564,7 @@
       </trans-unit>
       <trans-unit id="3020243013594111328" datatype="html">
         <source>About Mykyta</source>
-        <target>O Mykycie</target>
+        <target>Про Микиту</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">246</context>
@@ -572,7 +572,7 @@
       </trans-unit>
       <trans-unit id="1985854591113114884" datatype="html">
         <source> delivers </source>
-        <target> dostarcza </target>
+        <target> доставляє </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">253</context>
@@ -580,7 +580,7 @@
       </trans-unit>
       <trans-unit id="2672804869242165066" datatype="html">
         <source>complex integrations</source>
-        <target>zlozone integracje</target>
+        <target>складні інтеграції</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">255</context>
@@ -588,7 +588,7 @@
       </trans-unit>
       <trans-unit id="8020247422536680907" datatype="html">
         <source>AI-powered features</source>
-        <target>funkcje oparte na AI</target>
+        <target>функції на базі AI</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">256</context>
@@ -596,7 +596,7 @@
       </trans-unit>
       <trans-unit id="1362463165430951707" datatype="html">
         <source>quality at scale</source>
-        <target>jakosc na skale</target>
+        <target>якість у масштабі</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">257</context>
@@ -604,7 +604,7 @@
       </trans-unit>
       <trans-unit id="1592289499460012264" datatype="html">
         <source>product decisions</source>
-        <target>decyzje produktowe</target>
+        <target>продуктові рішення</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">258</context>
@@ -612,7 +612,7 @@
       </trans-unit>
       <trans-unit id="6287513479088584917" datatype="html">
         <source> at Box, Inc.</source>
-        <target> w Box, Inc.</target>
+        <target> в Box, Inc.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">265</context>
@@ -620,7 +620,7 @@
       </trans-unit>
       <trans-unit id="5947236573275589027" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="{{expYears}}"/> <x id="ICU" equiv-text="{expYears, plural, =1 {year} other {years}}" xid="1537255590051660224"/> shipping enterprise software</source>
-        <target><x id="INTERPOLATION" equiv-text="{{expYears}}"/> <x id="ICU" equiv-text="{expYears, plural, =1 {year} other {years}}" xid="1537255590051660224"/> dostarczania oprogramowania enterprise</target>
+        <target><x id="INTERPOLATION" equiv-text="{{expYears}}"/> <x id="ICU" equiv-text="{expYears, plural, =1 {year} other {years}}" xid="1537255590051660224"/> доставки корпоративного ПЗ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">269</context>
@@ -628,7 +628,7 @@
       </trans-unit>
       <trans-unit id="1537255590051660224" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {year} other {years}}</source>
-        <target>{VAR_PLURAL, plural, one {rok} few {lata} many {lat} other {lat}}</target>
+        <target>{VAR_PLURAL, plural, one {рік} few {роки} many {років} other {років}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">269</context>
@@ -636,7 +636,7 @@
       </trans-unit>
       <trans-unit id="467926406211781764" datatype="html">
         <source>Led engineering teams to deliver critical features</source>
-        <target>Prowadziłem zespoły inżynierów do dostarczenia krytycznych funkcji</target>
+        <target>Керував командами інженерів для доставки критичних функцій</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">273</context>
@@ -644,7 +644,7 @@
       </trans-unit>
       <trans-unit id="6537604078266953717" datatype="html">
         <source>Expert in React, TypeScript, Meteor, Node.js</source>
-        <target>Ekspert w React, TypeScript, Meteor, Node.js</target>
+        <target>Експерт у React, TypeScript, Meteor, Node.js</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">277</context>
@@ -652,7 +652,7 @@
       </trans-unit>
       <trans-unit id="5077790960213569057" datatype="html">
         <source>Complex system integration specialist</source>
-        <target>Specjalista integracji zlozonych systemow</target>
+        <target>Спеціаліст з інтеграції складних систем</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">281</context>
@@ -660,7 +660,7 @@
       </trans-unit>
       <trans-unit id="5702038954307125230" datatype="html">
         <source>Applied AI: Search, Metadata Extraction, LLM Agents</source>
-        <target>Stosowane AI: Wyszukiwanie, Ekstrakcja Metadanych, Agenci LLM</target>
+        <target>Застосування AI: пошук, екстракція метаданих, LLM агенти</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">285</context>
@@ -668,7 +668,7 @@
       </trans-unit>
       <trans-unit id="43946269826218871" datatype="html">
         <source>Core Competencies</source>
-        <target>Kompetencje</target>
+        <target>Компетенції</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">294</context>
@@ -676,7 +676,7 @@
       </trans-unit>
       <trans-unit id="5519897981875446610" datatype="html">
         <source>Complex System Integration</source>
-        <target>Integracja Zlozonych Systemow</target>
+        <target>Інтеграція складних систем</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">299</context>
@@ -684,7 +684,7 @@
       </trans-unit>
       <trans-unit id="7615139471977055010" datatype="html">
         <source>Meteor+React, Federated Modules, Large-scale APIs, Cross-platform Architecture</source>
-        <target>Meteor+React, Federated Modules, API na duzej skali, Architektura wieloplatformowa</target>
+        <target>Meteor+React, Federated Modules, масштабні API, крос-платформна архітектура</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">300</context>
@@ -692,7 +692,7 @@
       </trans-unit>
       <trans-unit id="400527915597591326" datatype="html">
         <source>Quality Engineering</source>
-        <target>Inzynieria Jakosci</target>
+        <target>Інженерія якості</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">304</context>
@@ -700,7 +700,7 @@
       </trans-unit>
       <trans-unit id="8417966328273232841" datatype="html">
         <source>E2E Testing, Playwright, VRT, Incidents Prevention and Mitigation</source>
-        <target>Testy E2E, Playwright, VRT, Zapobieganie i Lagodzenie Incydentow</target>
+        <target>E2E тестування, Playwright, VRT, запобігання та пом'якшення інцидентів</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">305</context>
@@ -708,7 +708,7 @@
       </trans-unit>
       <trans-unit id="3531211025880119525" datatype="html">
         <source>Product Engineering</source>
-        <target>Inzynieria Produktu</target>
+        <target>Продуктова інженерія</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">309</context>
@@ -716,7 +716,7 @@
       </trans-unit>
       <trans-unit id="7350497213435024892" datatype="html">
         <source>Product Decisions, Technical Specs, Stakeholder Management, End-to-End Ownership</source>
-        <target>Decyzje Produktowe, Specyfikacje Techniczne, Zarzadzanie Interesariuszami, Odpowiedzialnosc End-to-End</target>
+        <target>Продуктові рішення, технічні специфікації, управління стейкхолдерами, відповідальність end-to-end</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">310</context>
@@ -724,7 +724,7 @@
       </trans-unit>
       <trans-unit id="5707602534427090117" datatype="html">
         <source>Full-Stack Development</source>
-        <target>Rozwoj Full-Stack</target>
+        <target>Full-Stack розробка</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">314</context>
@@ -732,7 +732,7 @@
       </trans-unit>
       <trans-unit id="5931480140790540817" datatype="html">
         <source>React, TypeScript, Node.js, Large-scale Systems, Framework-agnostic</source>
-        <target>React, TypeScript, Node.js, Systemy na duzej skali, Niezalezny od frameworkow</target>
+        <target>React, TypeScript, Node.js, масштабні системи, незалежний від фреймворків</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">315</context>
@@ -740,7 +740,7 @@
       </trans-unit>
       <trans-unit id="343449785773300744" datatype="html">
         <source>Applied AI &amp; Automation</source>
-        <target>Stosowane AI i Automatyzacja</target>
+        <target>Застосування AI та автоматизація</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">319</context>
@@ -748,7 +748,7 @@
       </trans-unit>
       <trans-unit id="4059694156419226864" datatype="html">
         <source>LLM Agents, AI Coding Tools, Metadata Extraction, Search AI, Workflow Automation</source>
-        <target>Agenci LLM, Narzedzia AI do Kodowania, Ekstrakcja Metadanych, Wyszukiwanie AI, Automatyzacja Workflowow</target>
+        <target>LLM агенти, AI інструменти кодування, екстракція метаданих, AI пошук, автоматизація робочих процесів</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">320</context>
@@ -756,7 +756,7 @@
       </trans-unit>
       <trans-unit id="1949800099101277248" datatype="html">
         <source>Languages</source>
-        <target>Jezyki</target>
+        <target>Мови</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">324</context>
@@ -764,7 +764,7 @@
       </trans-unit>
       <trans-unit id="9017255061224147923" datatype="html">
         <source>English C2, Polish C2, Ukrainian (native)</source>
-        <target>Angielski C2, Polski C2, Ukrainski (ojczysty)</target>
+        <target>Англійська C2, Польська C2, Українська (рідна)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">325</context>
@@ -772,7 +772,7 @@
       </trans-unit>
       <trans-unit id="641716500460785755" datatype="html">
         <source>Get in Touch</source>
-        <target>Kontakt</target>
+        <target>Контакт</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">333</context>
@@ -780,7 +780,7 @@
       </trans-unit>
       <trans-unit id="1177711980251670789" datatype="html">
         <source> Have questions about my work or projects? </source>
-        <target> Masz pytania dotyczące mojej pracy lub projektów? </target>
+        <target> Маєте запитання щодо моєї роботи чи проєктів? </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">336,338</context>
@@ -788,7 +788,7 @@
       </trans-unit>
       <trans-unit id="1153721192129533394" datatype="html">
         <source>Contact me</source>
-        <target>Skontaktuj sie ze mna</target>
+        <target>Зв'яжіться зі мною</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">339</context>

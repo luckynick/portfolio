@@ -22,7 +22,8 @@
       "i18n": {
         "sourceLocale": "en",
         "locales": {
-          "pl": "src/locale/messages.pl.xlf"
+          "pl": "src/locale/messages.pl.xlf",
+          "uk": "src/locale/messages.uk.xlf"
         }
       },
       "architect": {
@@ -47,6 +48,9 @@
           "configurations": {
             "production": {
               "localize":true,
+              "optimization": {
+                "fonts": false
+              },
               "budgets": [
                 {
                   "type": "initial",

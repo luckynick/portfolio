@@ -11,6 +11,7 @@
 <mat-menu #menu="matMenu">
     <ng-container *ngTemplateOutlet="btnTemplate; context: { langCode: 'en', lang: 'English' }"></ng-container>
     <ng-container *ngTemplateOutlet="btnTemplate; context: { langCode: 'pl', lang: 'Polski' }"></ng-container>
+    <ng-container *ngTemplateOutlet="btnTemplate; context: { langCode: 'uk', lang: 'Українська' }"></ng-container>
     <!--
     <button #btn mat-menu-item data-lang="en" (click)="onLangClick(btn)" 
         [disabled]="isLangDisabled(btn)">
