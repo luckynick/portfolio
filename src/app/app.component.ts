@@ -3,6 +3,7 @@ import { ViewportScroller } from '@angular/common';
 import values from '../values';
 import { NavServiceService } from './service/nav-service.service';
 import { NavAnchorDirective } from './nav-anchor.directive';
+import { AnalyticsService } from './service/analytics.service';
 
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination, Mousewheel } from 'swiper';
@@ -21,8 +22,11 @@ export class AppComponent {
 
   constructor(
     public navService: NavServiceService,
-    private _viewportScroller: ViewportScroller
-  ) {}
+    private _viewportScroller: ViewportScroller,
+    analytics: AnalyticsService
+  ) {
+    analytics.init();
+  }
 
   toggleMobileMenu() {
     this.mobileMenuOpen = !this.mobileMenuOpen;
